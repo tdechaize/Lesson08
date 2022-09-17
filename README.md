@@ -12,7 +12,7 @@ Vous trouverez dans le sommaire ci-dessous beaucoup d'explications sur cette app
   - [Exigences du système](<Exigencesdusysteme.md>)
   - [Lancement d'une génération CB ou CMAKE](<LancementdunegenerationCBouCMAKE.md>)
 
-"" OpenGL Tutorial #8.
+## OpenGL Tutorial #8.
 
 Project Name: Jeff Molofee's OpenGL Tutorial
 
