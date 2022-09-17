@@ -1,0 +1,828 @@
+<html>
+<head>
+<title>Lesson08 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>17-09-2022 at 15:25.24</u><br />
+Build ended on: <u>17-09-2022 at 15:26.44</u><p />
+<b>-------------- Build: Debug Mingw32 official in Lesson08 (compiler: GNU GCC Compiler)---------------</b><br />
+mingw32-gcc.exe -g -D_DEBUG -DDEBUG -m32 -IC:\MingW\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingW32of\Debug\src\Lesson08.o<br />
+windres.exe -IC:\MingW\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingW32of\Debug\src\Lesson08.res<br />
+mingw32-gcc.exe -LC:\MingW\lib -o binMingW32of\Debug\Lesson08.exe objMingW32of\Debug\src\Lesson08.o  objMingW32of\Debug\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingW32of\Debug\Lesson08.exe with size 85.23 KB<br />
+<b>-------------- Build: Release Mingw32 official in Lesson08 (compiler: GNU GCC Compiler)---------------</b><br />
+mingw32-gcc.exe -O2 -DNDEBUG -m32 -IC:\MingW\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw32of\Release\src\Lesson08.o<br />
+windres.exe -IC:\MingW\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw32of\Release\src\Lesson08.res<br />
+mingw32-gcc.exe -LC:\MingW\lib -o binMingw32of\Release\Lesson08.exe objMingw32of\Release\src\Lesson08.o  objMingw32of\Release\src\Lesson08.res -s -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw32of\Release\Lesson08.exe with size 41.00 KB<br />
+<b>-------------- Build: Debug Mingw64 CB in Lesson08 (compiler: GNU GCC Compiler CB)---------------</b><br />
+gcc.exe -g -march=core2 -D_DEBUG -DDEBUG -m64 -IC:\CodeBlocks\MinGW\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw64CB\Debug\src\Lesson08.o<br />
+windres.exe -IC:\CodeBlocks\MinGW\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw64CB\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\CodeBlocks\MinGW\x86_64-w64-mingw32\lib -o binMingw64CB\Debug\Lesson08.exe objMingw64CB\Debug\src\Lesson08.o  objMingw64CB\Debug\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw64CB\Debug\Lesson08.exe with size 116.09 KB<br />
+<b>-------------- Build: Release Mingw64 CB in Lesson08 (compiler: GNU GCC Compiler CB)---------------</b><br />
+gcc.exe -O2 -DNDEBUG -m64 -IC:\CodeBlocks\MinGW\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw64CB\Release\src\Lesson08.o<br />
+windres.exe -IC:\CodeBlocks\MinGW\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw64CB\Release\src\Lesson08.res<br />
+gcc.exe -LC:\CodeBlocks\MinGW\x86_64-w64-mingw32\lib -o binMingw64CB\Release\Lesson08.exe objMingw64CB\Release\src\Lesson08.o  objMingw64CB\Release\src\Lesson08.res -s -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw64CB\Release\Lesson08.exe with size 32.50 KB<br />
+<b>-------------- Build: Debug Mingw64 Dev-Cpp in Lesson08 (compiler: GNU GCC Compiler DEV)---------------</b><br />
+gcc.exe -g -D_DEBUG -DDEBUG -m64 -I"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objDevCpp\Debug\src\Lesson08.o<br />
+windres.exe -I"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\include"  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objDevCpp\Debug\src\Lesson08.res<br />
+gcc.exe -L"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\lib" -L"C:\Program Files\RedPanda-Cpp\MinGW64\lib" -o binDevCpp\Debug\Lesson08.exe objDevCpp\Debug\src\Lesson08.o  objDevCpp\Debug\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binDevCpp\Debug\Lesson08.exe with size 174.26 KB<br />
+<b>-------------- Build: Release Mingw64 Dev-Cpp in Lesson08 (compiler: GNU GCC Compiler DEV)---------------</b><br />
+gcc.exe -O2 -DNDEBUG -m64 -I"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objDevCpp\Release\src\Lesson08.o<br />
+windres.exe -I"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\include"  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objDevCpp\Release\src\Lesson08.res<br />
+gcc.exe -L"C:\Program Files\RedPanda-Cpp\MinGW64\x86_64-w64-mingw32\lib" -L"C:\Program Files\RedPanda-Cpp\MinGW64\lib" -o binDevCpp\Release\Lesson08.exe objDevCpp\Release\src\Lesson08.o  objDevCpp\Release\src\Lesson08.res -s -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binDevCpp\Release\Lesson08.exe with size 34.50 KB<br />
+<b>-------------- Build: Debug CYGWIN 32 in Lesson08 (compiler: Cygwin GCC 32)---------------</b><br />
+i686-w64-mingw32-gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -m32 -D_WIN32 -IC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/include -c C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.c -o objCYGWIN32/Debug/src/Lesson08.o<br />
+i686-w64-mingw32-windres.exe -IC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/include  -J rc -O coff -i C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.rc -o objCYGWIN32/Debug/src/Lesson08.res<br />
+i686-w64-mingw32-gcc.exe -LC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/lib -o binCYGWIN32/Debug/Lesson08.exe objCYGWIN32/Debug/src/Lesson08.o  objCYGWIN32/Debug/src/Lesson08.res -mwindows -m32  -lglu32 -lopengl32 -mwindows<br />
+Output file is binCYGWIN32\Debug\Lesson08.exe with size 153.99 KB<br />
+<b>-------------- Build: Release CYGWIN 32 in Lesson08 (compiler: Cygwin GCC 32)---------------</b><br />
+i686-w64-mingw32-gcc.exe -march=core2 -DNDEBUG -m32 -D_WIN32 -IC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/include -c C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.c -o objCYGWIN32/Release/src/Lesson08.o<br />
+i686-w64-mingw32-windres.exe -IC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/include  -J rc -O coff -i C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.rc -o objCYGWIN32/Release/src/Lesson08.res<br />
+i686-w64-mingw32-gcc.exe -LC:/cygwin64/usr/i686-w64-mingw32/sys-root/mingw/lib -o binCYGWIN32/Release/Lesson08.exe objCYGWIN32/Release/src/Lesson08.o  objCYGWIN32/Release/src/Lesson08.res -mwindows -m32  -lglu32 -lopengl32 -mwindows<br />
+Output file is binCYGWIN32\Release\Lesson08.exe with size 140.24 KB<br />
+<b>-------------- Build: Debug CYGWIN 64 in Lesson08 (compiler: Cygwin GCC 64)---------------</b><br />
+x86_64-w64-mingw32-gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -m64 -D_WIN64 -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include -c C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.c -o objCYGWIN64/Debug/src/Lesson08.o<br />
+x86_64-w64-mingw32-windres.exe -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include  -J rc -O coff -i C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.rc -o objCYGWIN64/Debug/src/Lesson08.res<br />
+x86_64-w64-mingw32-gcc.exe -LC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/lib -o binCYGWIN64/Debug/Lesson08.exe objCYGWIN64/Debug/src/Lesson08.o  objCYGWIN64/Debug/src/Lesson08.res -mwindows -m64  -lglu32 -lopengl32 -mwindows<br />
+Output file is binCYGWIN64\Debug\Lesson08.exe with size 173.22 KB<br />
+<b>-------------- Build: Release CYGWIN 64 in Lesson08 (compiler: Cygwin GCC 64)---------------</b><br />
+x86_64-w64-mingw32-gcc.exe -march=core2 -DNDEBUG -m64 -D_WIN64 -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include -c C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.c -o objCYGWIN64/Release/src/Lesson08.o<br />
+x86_64-w64-mingw32-windres.exe -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include  -J rc -O coff -i C:/src/OpenGL/NeHe_Lesson08-master/src/Lesson08.rc -o objCYGWIN64/Release/src/Lesson08.res<br />
+x86_64-w64-mingw32-gcc.exe -LC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/lib -o binCYGWIN64/Release/Lesson08.exe objCYGWIN64/Release/src/Lesson08.o  objCYGWIN64/Release/src/Lesson08.res -mwindows -m64  -lglu32 -lopengl32 -mwindows<br />
+Output file is binCYGWIN64\Release\Lesson08.exe with size 160.48 KB<br />
+<b>-------------- Build: Debug Mingw32 wl in Lesson08 (compiler: GNU GCC MinGW32 Compiler)---------------</b><br />
+gcc.exe -m32 -g -D_DEBUG -DDEBUG -D_WIN32 -IC:\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw32wl\Debug\src\Lesson08.o<br />
+windres.exe -IC:\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw32wl\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\mingw32\i686-w64-mingw32\lib -o binMingw32wl\Debug\Lesson08.exe objMingw32wl\Debug\src\Lesson08.o  objMingw32wl\Debug\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw32wl\Debug\Lesson08.exe with size 96.50 KB<br />
+<b>-------------- Build: Release Mingw32 wl in Lesson08 (compiler: GNU GCC MinGW32 Compiler)---------------</b><br />
+gcc.exe -m32 -DNDEBUG -D_WIN32 -IC:\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw32wl\Release\src\Lesson08.o<br />
+windres.exe -IC:\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw32wl\Release\src\Lesson08.res<br />
+gcc.exe -LC:\mingw32\i686-w64-mingw32\lib -o binMingw32wl\Release\Lesson08.exe objMingw32wl\Release\src\Lesson08.o  objMingw32wl\Release\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw32wl\Release\Lesson08.exe with size 83.29 KB<br />
+<b>-------------- Build: Debug Mingw64 wl in Lesson08 (compiler: GNU GCC MinGW64 Compiler)---------------</b><br />
+gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -IC:\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw64wl\Debug\src\Lesson08.o<br />
+windres.exe -IC:\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw64wl\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\mingw64\x86_64-w64-mingw32\lib -o binMingw64wl\Debug\Lesson08.exe objMingw64wl\Debug\src\Lesson08.o  objMingw64wl\Debug\src\Lesson08.res  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw64wl\Debug\Lesson08.exe with size 104.33 KB<br />
+<b>-------------- Build: Release Mingw64 wl in Lesson08 (compiler: GNU GCC MinGW64 Compiler)---------------</b><br />
+gcc.exe -march=core2 -O2 -DNDEBUG -IC:\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMingw64wl\Release\src\Lesson08.o<br />
+windres.exe -IC:\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMingw64wl\Release\src\Lesson08.res<br />
+gcc.exe -LC:\mingw64\x86_64-w64-mingw32\lib -o binMingw64wl\Release\Lesson08.exe objMingw64wl\Release\src\Lesson08.o  objMingw64wl\Release\src\Lesson08.res -s  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMingw64wl\Release\Lesson08.exe with size 38.00 KB<br />
+<b>-------------- Build: Debug TDM MinGW32 in Lesson08 (compiler: TDM GCC Compiler)---------------</b><br />
+mingw32-gcc.exe -march=core2 -std=c99 -g -D_DEBUG -DDEBUG -IC:\TDM-GCC-32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objTDMW32\Debug\src\Lesson08.o<br />
+windres.exe -IC:\TDM-GCC-32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objTDMW32\Debug\src\Lesson08.res<br />
+mingw32-gcc.exe -LC:\TDM-GCC-32\lib -o binTDMW32\Debug\Lesson08.exe objTDMW32\Debug\src\Lesson08.o  objTDMW32\Debug\src\Lesson08.res  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binTDMW32\Debug\Lesson08.exe with size 73.92 KB<br />
+<b>-------------- Build: Release TDM MinGW32 in Lesson08 (compiler: TDM GCC Compiler)---------------</b><br />
+mingw32-gcc.exe -march=core2 -O2 -std=c99 -DNDEBUG -IC:\TDM-GCC-32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objTDMW32\Release\src\Lesson08.o<br />
+windres.exe -IC:\TDM-GCC-32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objTDMW32\Release\src\Lesson08.res<br />
+mingw32-gcc.exe -LC:\TDM-GCC-32\lib -o binTDMW32\Release\Lesson08.exe objTDMW32\Release\src\Lesson08.o  objTDMW32\Release\src\Lesson08.res -s  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binTDMW32\Release\Lesson08.exe with size 40.50 KB<br />
+<b>-------------- Build: Debug TDM MinGW64 in Lesson08 (compiler: TDM GCC X64 Compiler)---------------</b><br />
+gcc.exe -march=core2 -std=c99 -g -D_DEBUG -DDEBUG -IC:\TDM-GCC-64\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objTDMW64\Debug\src\Lesson08.o<br />
+windres.exe -IC:\TDM-GCC-64\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objTDMW64\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\TDM-GCC-64\lib -o binTDMW64\Debug\Lesson08.exe objTDMW64\Debug\src\Lesson08.o  objTDMW64\Debug\src\Lesson08.res  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binTDMW64\Debug\Lesson08.exe with size 242.86 KB<br />
+<b>-------------- Build: Release TDM MinGW64 in Lesson08 (compiler: TDM GCC X64 Compiler)---------------</b><br />
+gcc.exe -march=core2 -O2 -std=c99 -DNDEBUG -IC:\TDM-GCC-64\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objTDMW64\Release\src\Lesson08.o<br />
+windres.exe -IC:\TDM-GCC-64\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objTDMW64\Release\src\Lesson08.res<br />
+gcc.exe -LC:\TDM-GCC-64\lib -o binTDMW64\Release\Lesson08.exe objTDMW64\Release\src\Lesson08.o  objTDMW64\Release\src\Lesson08.res -s  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binTDMW64\Release\Lesson08.exe with size 79.50 KB<br />
+<b>-------------- Build: Debug MSYS2W32 in Lesson08 (compiler: GNU GCC MSYS MinGW32 Compiler)---------------</b><br />
+gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -m32 -D_WIN32 -IC:\msys64\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMSYS2W32\Debug\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMSYS2W32\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\msys64\mingw32\i686-w64-mingw32\lib -o binMSYS2W32\Debug\Lesson08.exe objMSYS2W32\Debug\src\Lesson08.o  objMSYS2W32\Debug\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMSYS2W32\Debug\Lesson08.exe with size 150.07 KB<br />
+<b>-------------- Build: Release MSYS2W32 in Lesson08 (compiler: GNU GCC MSYS MinGW32 Compiler)---------------</b><br />
+gcc.exe -O2 -DNDEBUG -m32 -D_WIN32 -IC:\msys64\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMSYS2W32\Release\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMSYS2W32\Release\src\Lesson08.res<br />
+gcc.exe -LC:\msys64\mingw32\i686-w64-mingw32\lib -o binMSYS2W32\Release\Lesson08.exe objMSYS2W32\Release\src\Lesson08.o  objMSYS2W32\Release\src\Lesson08.res -s -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMSYS2W32\Release\Lesson08.exe with size 35.50 KB<br />
+<b>-------------- Build: Debug MSYS2W64 in Lesson08 (compiler: GNU GCC MSYS MinGW64 Compiler)---------------</b><br />
+gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -m64 -D_WIN64 -IC:\msys64\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMSYS2W64\Debug\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMSYS2W64\Debug\src\Lesson08.res<br />
+gcc.exe -LC:\msys64\mingw64\x86_64-w64-mingw32\lib -o binMSYS2W64\Debug\Lesson08.exe objMSYS2W64\Debug\src\Lesson08.o  objMSYS2W64\Debug\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMSYS2W64\Debug\Lesson08.exe with size 167.77 KB<br />
+<b>-------------- Build: Release MSYS2W64 in Lesson08 (compiler: GNU GCC MSYS MinGW64 Compiler)---------------</b><br />
+gcc.exe -O2 -DNDEBUG -m64 -D_WIN64 -IC:\msys64\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objMSYS2W64\Release\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objMSYS2W64\Release\src\Lesson08.res<br />
+gcc.exe -LC:\msys64\mingw64\x86_64-w64-mingw32\lib -o binMSYS2W64\Release\Lesson08.exe objMSYS2W64\Release\src\Lesson08.o  objMSYS2W64\Release\src\Lesson08.res -s -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binMSYS2W64\Release\Lesson08.exe with size 34.50 KB<br />
+<b>-------------- Build: Debug VS2022 X32 in Lesson08 (compiler: Microsoft Visual C++ 2022)---------------</b><br />
+cl.exe /nologo  /Zi -D -g /D_DEBUG /DDEBUG    /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /c src\Lesson08.c /FoobjVS2022X32\Debug\src\Lesson08.obj<br />
+rc.exe /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"  -foobjVS2022X32\Debug\src\Lesson08.res src\Lesson08.rc<br />
+Lesson08.c<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+link.exe /nologo /subsystem:windows /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x86" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x86" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86\store" /out:binVS2022X32\Debug\Lesson08.exe glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib objVS2022X32\Debug\src\Lesson08.obj  objVS2022X32\Debug\src\Lesson08.res /debug<br />
+LINK : binVS2022X32\Debug\Lesson08.exe introuvable ou non g‚n‚r‚ par la derniŠre ‚dition de liens incr‚mentielleÿ; ‚dition de liens complŠte en cours<br />
+Output file is binVS2022X32\Debug\Lesson08.exe with size 496.50 KB<br />
+<b>-------------- Build: Release VS2022 X32 in Lesson08 (compiler: Microsoft Visual C++ 2022)---------------</b><br />
+cl.exe /nologo  /TC -DNDEBUG    /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /c src\Lesson08.c /FoobjVS2022X32\Release\src\Lesson08.obj<br />
+rc.exe /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"  -foobjVS2022X32\Release\src\Lesson08.res src\Lesson08.rc<br />
+Lesson08.c<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+link.exe /nologo /subsystem:windows /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x86" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x86" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86\store" /out:binVS2022X32\Release\Lesson08.exe glu32.lib opengl32.lib advapi32.lib comdlg32.lib winmm.lib shell32.lib user32.lib kernel32.lib gdi32.lib objVS2022X32\Release\src\Lesson08.obj  objVS2022X32\Release\src\Lesson08.res<br />
+Output file is binVS2022X32\Release\Lesson08.exe with size 99.00 KB<br />
+<b>-------------- Build: Debug VS2022 X64 in Lesson08 (compiler: Microsoft Visual C++ 2022 X64)---------------</b><br />
+cl.exe /nologo  /TC /Zi /D_DEBUG /DDEBUG    /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /c src\Lesson08.c /FoobjVS2022X64\Debug\src\Lesson08.obj<br />
+rc.exe /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"  -foobjVS2022X64\Debug\src\Lesson08.res src\Lesson08.rc<br />
+Lesson08.c<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+link.exe /nologo /subsystem:windows /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64\store" /out:binVS2022X64\Debug\Lesson08.exe glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib objVS2022X64\Debug\src\Lesson08.obj  objVS2022X64\Debug\src\Lesson08.res /debug /MACHINE:X64 /MACHINE:X64<br />
+LINK : binVS2022X64\Debug\Lesson08.exe introuvable ou non g‚n‚r‚ par la derniŠre ‚dition de liens incr‚mentielleÿ; ‚dition de liens complŠte en cours<br />
+Output file is binVS2022X64\Debug\Lesson08.exe with size 642.00 KB<br />
+<b>-------------- Build: Release VS2022 X64 in Lesson08 (compiler: Microsoft Visual C++ 2022 X64)---------------</b><br />
+cl.exe /nologo  /TC -DNDEBUG    /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /c src\Lesson08.c /FoobjVS2022X64\Release\src\Lesson08.obj<br />
+rc.exe /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"  -foobjVS2022X64\Release\src\Lesson08.res src\Lesson08.rc<br />
+Lesson08.c<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+link.exe /nologo /subsystem:windows /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64\store" /out:binVS2022X64\Release\Lesson08.exe glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib objVS2022X64\Release\src\Lesson08.obj  objVS2022X64\Release\src\Lesson08.res /MACHINE:X64 /MACHINE:X64<br />
+Output file is binVS2022X64\Release\Lesson08.exe with size 121.50 KB<br />
+<b>-------------- Build: Debug DMC in Lesson08 (compiler: Digital Mars Compiler)---------------</b><br />
+dmc.exe -mn -c  -WA -H -g -D_DEBUG -DDEBUG    -IC:\dm\include\gl -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include -oobjDMC\Debug\src\Lesson08.obj src\Lesson08.c<br />
+rcc.exe -32 -IC:\dm\include\win32 -IC:\dm\include  -oobjDMC\Debug\src\Lesson08.res src\Lesson08.rc<br />
+								NULL)))								// Dont Pass Anything To WM_CREATE<br />
+								      ^<br />
+<font color="#0000ff">src\Lesson08.c(512) : Warning 2: possible unintended assignment</font><br />
+    if (!(hDC=GetDC(hWnd)))                         // Did We Get A Device Context?<br />
+                          ^<br />
+<font color="#0000ff">src\Lesson08.c(521) : Warning 2: possible unintended assignment</font><br />
+	if (!(PixelFormat=ChoosePixelFormat(hDC,&amp;pfd)))	// Did Windows Find A Matching Pixel Format?<br />
+	                                              ^<br />
+<font color="#0000ff">src\Lesson08.c(528) : Warning 2: possible unintended assignment</font><br />
+	if (!(hRC=wglCreateContext(hDC)))				// Are We Able To Get A Rendering Context?<br />
+	                                ^<br />
+<font color="#0000ff">src\Lesson08.c(542) : Warning 2: possible unintended assignment</font><br />
+link.exe /NOLOGO /subsystem:windows objDMC\Debug\src\Lesson08.obj, binDMC\Debug\Lesson08.exe, , glu32.lib opengl32.lib comdlg32.lib gdi32.lib winmm.lib , ,  objDMC\Debug\src\Lesson08.res<br />
+Output file is binDMC\Debug\Lesson08.exe with size 40.53 KB<br />
+<b>-------------- Build: Release DMC in Lesson08 (compiler: Digital Mars Compiler)---------------</b><br />
+dmc.exe -mn -c    -IC:\dm\include\gl -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include -oobjDMC\Release\src\Lesson08.obj src\Lesson08.c<br />
+rcc.exe -32 -IC:\dm\include\win32 -IC:\dm\include  -oobjDMC\Release\src\Lesson08.res src\Lesson08.rc<br />
+								NULL)))								// Dont Pass Anything To WM_CREATE<br />
+								      ^<br />
+<font color="#0000ff">src\Lesson08.c(512) : Warning 2: possible unintended assignment</font><br />
+    if (!(hDC=GetDC(hWnd)))                         // Did We Get A Device Context?<br />
+                          ^<br />
+<font color="#0000ff">src\Lesson08.c(521) : Warning 2: possible unintended assignment</font><br />
+	if (!(PixelFormat=ChoosePixelFormat(hDC,&amp;pfd)))	// Did Windows Find A Matching Pixel Format?<br />
+	                                              ^<br />
+<font color="#0000ff">src\Lesson08.c(528) : Warning 2: possible unintended assignment</font><br />
+	if (!(hRC=wglCreateContext(hDC)))				// Are We Able To Get A Rendering Context?<br />
+	                                ^<br />
+<font color="#0000ff">src\Lesson08.c(542) : Warning 2: possible unintended assignment</font><br />
+link.exe /NOLOGO /subsystem:windows objDMC\Release\src\Lesson08.obj, binDMC\Release\Lesson08.exe, , glu32.lib opengl32.lib comdlg32.lib gdi32.lib winmm.lib , ,  objDMC\Release\src\Lesson08.res<br />
+Output file is binDMC\Release\Lesson08.exe with size 40.53 KB<br />
+<b>-------------- Build: Debug lcc in Lesson08 (compiler: LCC Compiler)---------------</b><br />
+lrc.exe -IC:\lcc\include -foobjlcc32\Debug\src\Lesson08.res  src\Lesson08.rc<br />
+lcc.exe -c -IC:\lcc\include  -g2 -D_DEBUG -DDEBUG    src\Lesson08.c -Foobjlcc32\Debug\src\Lesson08.obj<br />
+<font color="#0000ff">Warning src\lesson08.c: 278  Missing prototype for 'LoadGLTextures'</font><br />
+0 errors, 1 warning<br />
+lcclnk.exe -LC:\lcc\lib  objlcc32\Debug\src\Lesson08.obj  objlcc32\Debug\src\Lesson08.res glu32.lib opengl32.lib advapi32.lib comdlg32.lib gdi32.lib winmm.lib -o binlcc32\Debug\Lesson08.exe<br />
+Output file is binlcc32\Debug\Lesson08.exe with size 59.83 KB<br />
+<b>-------------- Build: Release lcc in Lesson08 (compiler: LCC Compiler)---------------</b><br />
+lrc.exe -IC:\lcc\include -foobjlcc32\Release\src\Lesson08.res  src\Lesson08.rc<br />
+lcc.exe -c -IC:\lcc\include  -DNDEBUG    src\Lesson08.c -Foobjlcc32\Release\src\Lesson08.obj<br />
+<font color="#0000ff">Warning src\lesson08.c: 278  Missing prototype for 'LoadGLTextures'</font><br />
+0 errors, 1 warning<br />
+lcclnk.exe -LC:\lcc\lib  objlcc32\Release\src\Lesson08.obj  objlcc32\Release\src\Lesson08.res glu32.lib opengl32.lib advapi32.lib comdlg32.lib gdi32.lib winmm.lib -o binlcc32\Release\Lesson08.exe<br />
+Output file is binlcc32\Release\Lesson08.exe with size 47.21 KB<br />
+<b>-------------- Build: Debug lcc64 in Lesson08 (compiler: LCC Compiler 64)---------------</b><br />
+lrc.exe -IC:\lcc64\include64 -foobjlcc64\Debug\src\Lesson08.res  src\Lesson08.rc<br />
+lcc64.exe -c -IC:\lcc64\include64  -g2 -D_DEBUG -DDEBUG    src\Lesson08.c -Foobjlcc64\Debug\src\Lesson08.obj<br />
+<font color="#0000ff">Warning src\lesson08.c: 278  missing prototype for LoadGLTextures</font><br />
+0 errors, 1 warning<br />
+lcclnk64.exe -LC:\lcc64\lib64  objlcc64\Debug\src\Lesson08.obj  objlcc64\Debug\src\Lesson08.res glu32.lib opengl32.lib advapi32.lib comdlg32.lib gdi32.lib winmm.lib -o binlcc64\Debug\Lesson08.exe<br />
+Output file is binlcc64\Debug\Lesson08.exe with size 56.61 KB<br />
+<b>-------------- Build: Release lcc64 in Lesson08 (compiler: LCC Compiler 64)---------------</b><br />
+lrc.exe -IC:\lcc64\include64 -foobjlcc64\Release\src\Lesson08.res  src\Lesson08.rc<br />
+lcc64.exe -c -IC:\lcc64\include64    src\Lesson08.c -Foobjlcc64\Release\src\Lesson08.obj<br />
+<font color="#0000ff">Warning src\lesson08.c: 278  missing prototype for LoadGLTextures</font><br />
+0 errors, 1 warning<br />
+lcclnk64.exe -LC:\lcc64\lib64  objlcc64\Release\src\Lesson08.obj  objlcc64\Release\src\Lesson08.res glu32.lib opengl32.lib advapi32.lib comdlg32.lib gdi32.lib winmm.lib -o binlcc64\Release\Lesson08.exe<br />
+Output file is binlcc64\Release\Lesson08.exe with size 41.61 KB<br />
+<b>-------------- Build: Debug BorlandC in Lesson08 (compiler: Borland C++ Compiler (5.5, 5.82))---------------</b><br />
+bcc32.exe -q  -tW -6 -y -v -D_DEBUG -DDEBUG    -IC:\BCC55\include -oobjBC55\Debug\src\Lesson08.obj -c src\Lesson08.c<br />
+brcc32.exe -32 -foobjBC55\Debug\src\Lesson08.res -IC:\BCC55\include  src\Lesson08.rc<br />
+Borland Resource Compiler  Version 5.40<br />
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.<br />
+src\Lesson08.c:<br />
+Warning W8065 src\Lesson08.c 278: Call to function 'LoadGLTextures' with no prototype in function InitGL<br />
+Warning W8060 src\Lesson08.c 500: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8060 src\Lesson08.c 521: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8060 src\Lesson08.c 542: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'hInstance' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'hPrevInstance' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'lpCmdLine' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'nCmdShow' is never used in function WinMain<br />
+ilink32.exe -q -aa   -LC:\BCC55\lib -LC:\BCC55\lib\psdk c0w32 objBC55\Debug\src\Lesson08.obj,binBC55\Debug\Lesson08.exe,,cw32mti.lib opengl32.lib glu32.lib cw32.lib gdi32.lib advapi32.lib comdlg32.lib winmm.lib user32.lib import32.lib,, objBC55\Debug\src\Lesson08.res<br />
+Output file is binBC55\Debug\Lesson08.exe with size 22.00 KB<br />
+<b>-------------- Build: Release BorlandC in Lesson08 (compiler: Borland C++ Compiler (5.5, 5.82))---------------</b><br />
+bcc32.exe -q  -tW -6 -v- -DNDEBUG    -IC:\BCC55\include -oobjBC55\Release\src\Lesson08.obj -c src\Lesson08.c<br />
+brcc32.exe -32 -foobjBC55\Release\src\Lesson08.res -IC:\BCC55\include  src\Lesson08.rc<br />
+Borland Resource Compiler  Version 5.40<br />
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.<br />
+src\Lesson08.c:<br />
+Warning W8065 src\Lesson08.c 278: Call to function 'LoadGLTextures' with no prototype in function InitGL<br />
+Warning W8060 src\Lesson08.c 500: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8060 src\Lesson08.c 521: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8060 src\Lesson08.c 542: Possibly incorrect assignment in function CreateGLWindow<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'hInstance' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'hPrevInstance' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'lpCmdLine' is never used in function WinMain<br />
+Warning W8057 src\Lesson08.c 792: Parameter 'nCmdShow' is never used in function WinMain<br />
+ilink32.exe -q -aa   -LC:\BCC55\lib -LC:\BCC55\lib\psdk c0w32 objBC55\Release\src\Lesson08.obj,binBC55\Release\Lesson08.exe,,cw32mti.lib opengl32.lib glu32.lib cw32.lib gdi32.lib advapi32.lib comdlg32.lib winmm.lib user32.lib import32.lib,, objBC55\Release\src\Lesson08.res<br />
+Output file is binBC55\Release\Lesson08.exe with size 22.00 KB<br />
+<b>-------------- Build: Debug OW 32 in Lesson08 (compiler: OpenWatcom (W32) Compiler)---------------</b><br />
+wcl386.exe -q -c  -d2 -g -d_DEBUG -dDEBUG  -bcl=nt   -iC:\watcom\h\nt -iC:\watcom\h -fo=objOW32\Debug\src\Lesson08.obj src\Lesson08.c<br />
+wrc.exe -q -r -fo=objOW32\Debug\src\Lesson08.res -iC:\watcom\h\nt -iC:\watcom\h src\Lesson08.rc<br />
+wlink.exe option quiet debug all system nt_win  LIBP  C:\watcom\lib386\nt;C:\watcom\lib386 file objOW32\Debug\src\Lesson08.obj name binOW32\Debug\Lesson08.exe library glu32,opengl32,advapi32,comdlg32,gdi32,winmm  option resource=objOW32\Debug\src\Lesson08.res<br />
+Output file is binOW32\Debug\Lesson08.exe with size 56.61 KB<br />
+<b>-------------- Build: Release OW 32 in Lesson08 (compiler: OpenWatcom (W32) Compiler)---------------</b><br />
+wcl386.exe -q -c  -bcl=nt   -iC:\watcom\h\nt -iC:\watcom\h -fo=objOW32\Release\src\Lesson08.obj src\Lesson08.c<br />
+wrc.exe -q -r -fo=objOW32\Release\src\Lesson08.res -iC:\watcom\h\nt -iC:\watcom\h src\Lesson08.rc<br />
+wlink.exe option quiet system nt_win  LIBP  C:\watcom\lib386\nt;C:\watcom\lib386 file objOW32\Release\src\Lesson08.obj name binOW32\Release\Lesson08.exe library glu32,opengl32,advapi32,comdlg32,gdi32,winmm  option resource=objOW32\Release\src\Lesson08.res<br />
+Output file is binOW32\Release\Lesson08.exe with size 33.50 KB<br />
+<b>-------------- Build: Debug PELLES C in Lesson08 (compiler: PELLES C++ 2021)---------------</b><br />
+pocc.exe /nologo  /Zi -Tx86-coff /Ze /c /D_DEBUG /DDEBUG /D_X86_  -Tx86-coff /D_X86_   /IC:\PellesC\include\Win /IC:\PellesC\include /c src\Lesson08.c /FoobjPELLESC32\Debug\src\Lesson08.obj<br />
+porc.exe /IC:\PellesC\include\Win /IC:\PellesC\include  -foobjPELLESC32\Debug\src\Lesson08.res src\Lesson08.rc<br />
+polink.exe /nologo /subsystem:windows /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib /out:binPELLESC32\Debug\Lesson08.exe glu32.lib opengl32.lib advapi32.lib comdlg32.lib winmm.lib shell32.lib user32.lib kernel32.lib gdi32.lib objPELLESC32\Debug\src\Lesson08.obj  objPELLESC32\Debug\src\Lesson08.res /debug /MACHINE:X86 /SUBSYSTEM:WINDOWS /MACHINE:X86<br />
+Writing debug information<br />
+Compacting debug information<br />
+Output file is binPELLESC32\Debug\Lesson08.exe with size 66.00 KB<br />
+<b>-------------- Build: Release PELLES C in Lesson08 (compiler: PELLES C++ 2021)---------------</b><br />
+pocc.exe /nologo  -Tx86-coff /Ze /c /DNDEBUG /D_X86_  -Tx86-coff /D_X86_   /IC:\PellesC\include\Win /IC:\PellesC\include /c src\Lesson08.c /FoobjPELLESC32\Release\src\Lesson08.obj<br />
+porc.exe /IC:\PellesC\include\Win /IC:\PellesC\include  -foobjPELLESC32\Release\src\Lesson08.res src\Lesson08.rc<br />
+polink.exe /nologo /subsystem:windows /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib /out:binPELLESC32\Release\Lesson08.exe glu32.lib opengl32.lib advapi32.lib comdlg32.lib winmm.lib shell32.lib user32.lib kernel32.lib gdi32.lib objPELLESC32\Release\src\Lesson08.obj  objPELLESC32\Release\src\Lesson08.res /MACHINE:X86 /SUBSYSTEM:WINDOWS /MACHINE:X86<br />
+Output file is binPELLESC32\Release\Lesson08.exe with size 38.00 KB<br />
+<b>-------------- Build: Debug PELLES C 64 in Lesson08 (compiler: PELLES C++ 2021 (64b))---------------</b><br />
+pocc.exe /nologo  /Zi -Tx64-coff /Ze /c /D_DEBUG /DDEBUG /D_AMD64_ /D_WIN64  -Tx64-coff /D_AMD64_ /D_WIN64   /IC:\PellesC\include\Win /IC:\PellesC\include /c src\Lesson08.c /FoobjPELLESC64\Debug\src\Lesson08.obj<br />
+porc.exe /IC:\PellesC\include\Win /IC:\PellesC\include  -foobjPELLESC64\Debug\src\Lesson08.res src\Lesson08.rc<br />
+polink.exe /nologo /subsystem:windows /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib /out:binPELLESC64\Debug\Lesson08.exe glu32.lib opengl32.lib advapi32.lib comdlg32.lib winmm.lib shell32.lib user32.lib kernel32.lib gdi32.lib objPELLESC64\Debug\src\Lesson08.obj  objPELLESC64\Debug\src\Lesson08.res /debug /MACHINE:X64 /SUBSYSTEM:WINDOWS /MACHINE:X64<br />
+Writing debug information<br />
+Compacting debug information<br />
+Output file is binPELLESC64\Debug\Lesson08.exe with size 72.50 KB<br />
+<b>-------------- Build: Release PELLES C 64 in Lesson08 (compiler: PELLES C++ 2021 (64b))---------------</b><br />
+pocc.exe /nologo  -Tx64-coff /Ze /c /DNDEBUG /D_AMD64_ /D_WIN64  -Tx64-coff /D_AMD64_ /D_WIN64   /IC:\PellesC\include\Win /IC:\PellesC\include /c src\Lesson08.c /FoobjPELLESC64\Release\src\Lesson08.obj<br />
+porc.exe /IC:\PellesC\include\Win /IC:\PellesC\include  -foobjPELLESC64\Release\src\Lesson08.res src\Lesson08.rc<br />
+polink.exe /nologo /subsystem:windows /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib /out:binPELLESC64\Release\Lesson08.exe glu32.lib opengl32.lib advapi32.lib comdlg32.lib winmm.lib shell32.lib user32.lib kernel32.lib gdi32.lib objPELLESC64\Release\src\Lesson08.obj  objPELLESC64\Release\src\Lesson08.res /MACHINE:X64 /SUBSYSTEM:WINDOWS /MACHINE:X64<br />
+Output file is binPELLESC64\Release\Lesson08.exe with size 43.50 KB<br />
+<b>-------------- Build: Debug CLANG Mingw32 in Lesson08 (compiler: LLVM Clang Compiler W32)---------------</b><br />
+clang.exe -g -D_DEBUG -DDEBUG -m32 -IC:\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGW32\Debug\src\Lesson08.o<br />
+windres.exe -IC:\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGW32\Debug\src\Lesson08.res<br />
+clang.exe -LC:\mingw32\i686-w64-mingw32\lib -o binCLANGW32\Debug\Lesson08.exe objCLANGW32\Debug\src\Lesson08.o  objCLANGW32\Debug\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -Wl,--subsystem,windows<br />
+Output file is binCLANGW32\Debug\Lesson08.exe with size 91.90 KB<br />
+<b>-------------- Build: Release CLANG Mingw32 in Lesson08 (compiler: LLVM Clang Compiler W32)---------------</b><br />
+clang.exe -m32 -IC:\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGW32\release\src\Lesson08.o<br />
+windres.exe -IC:\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGW32\release\src\Lesson08.res<br />
+clang.exe -LC:\mingw32\i686-w64-mingw32\lib -o binCLANGW32\Release\Lesson08.exe objCLANGW32\release\src\Lesson08.o  objCLANGW32\release\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -Wl,--subsystem,windows<br />
+Output file is binCLANGW32\Release\Lesson08.exe with size 84.22 KB<br />
+<b>-------------- Build: Debug CLANG Mingw64 in Lesson08 (compiler: LLVM Clang Compiler W64)---------------</b><br />
+clang.exe -g -D_DEBUG -DDEBUG -m64 -IC:\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGW64\Debug\src\Lesson08.o<br />
+windres.exe -IC:\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGW64\Debug\src\Lesson08.res<br />
+clang.exe -LC:\mingw64\x86_64-w64-mingw32\lib -o binCLANGW64\Debug\Lesson08.exe objCLANGW64\Debug\src\Lesson08.o  objCLANGW64\Debug\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -Wl,--subsystem,windows<br />
+Output file is binCLANGW64\Debug\Lesson08.exe with size 97.66 KB<br />
+<b>-------------- Build: Release CLANG Mingw64 in Lesson08 (compiler: LLVM Clang Compiler W64)---------------</b><br />
+clang.exe -DNDEBUG -m64 -IC:\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGW64\Release\src\Lesson08.o<br />
+windres.exe -IC:\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGW64\Release\src\Lesson08.res<br />
+clang.exe -LC:\mingw64\x86_64-w64-mingw32\lib -o binCLANGW64\Release\Lesson08.exe objCLANGW64\Release\src\Lesson08.o  objCLANGW64\Release\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -Wl,--subsystem,windows<br />
+Output file is binCLANGW64\Release\Lesson08.exe with size 89.52 KB<br />
+<b>-------------- Build: Debug CLANG MSX32 in Lesson08 (compiler: LLVM Clang Compiler X32)---------------</b><br />
+rc.exe -I"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /fo "C:\src\OpenGL\NeHe_Lesson08-master\objCLANGX32\Debug\src\Lesson08.res" src\Lesson08.rc<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+clang.exe -g -D_DEBUG -DDEBUG -fms-extensions -m32 -target i686-pc-windows-msvc -I"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGX32\Debug\src\Lesson08.o<br />
+clang.exe -L"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\lib\windows" -L"C:\Program Files (X86)\Windows Kits\10\lib\10.0.22621.0\um\x86" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86" -L"C:\Program Files (X86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86\store" -o binCLANGX32\Debug\Lesson08.exe objCLANGX32\Debug\src\Lesson08.o  objCLANGX32\Debug\src\Lesson08.res -target i686-pc-windows-msvc -m32 -target i686-pc-windows-msvc  -lglu32 -lopengl32 -luser32 -ladvapi32 -lcomdlg32 -lwinmm -lgdi32 -lshell32 -lkernel32<br />
+Output file is binCLANGX32\Debug\Lesson08.exe with size 99.50 KB<br />
+<b>-------------- Build: Release CLANG MSX32 in Lesson08 (compiler: LLVM Clang Compiler X32)---------------</b><br />
+rc.exe -I"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /fo "C:\src\OpenGL\NeHe_Lesson08-master\objCLANGX32\Release\src\Lesson08.res" src\Lesson08.rc<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+clang.exe -target i686-pc-windows-msvc -DNDEBUG -fms-extensions -m32 -target i686-pc-windows-msvc -I"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGX32\Release\src\Lesson08.o<br />
+clang.exe -L"C:\Program Files (X86)\LLVM\lib\clang\15.0.0\lib\windows" -L"C:\Program Files (X86)\Windows Kits\10\lib\10.0.22621.0\um\x86" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86" -L"C:\Program Files (X86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86\store" -o binCLANGX32\Release\Lesson08.exe objCLANGX32\Release\src\Lesson08.o  objCLANGX32\Release\src\Lesson08.res -target i686-pc-windows-msvc -m32 -target i686-pc-windows-msvc  -lglu32 -lopengl32 -luser32 -ladvapi32 -lcomdlg32 -lwinmm -lgdi32 -lshell32 -lkernel32<br />
+Output file is binCLANGX32\Release\Lesson08.exe with size 99.50 KB<br />
+<b>-------------- Build: Debug CLANG MSX64 in Lesson08 (compiler: LLVM Clang Compiler X64)---------------</b><br />
+rc.exe -I"C:\Program Files\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /fo "C:\src\OpenGL\NeHe_Lesson08-master\objCLANGX64\Debug\src\Lesson08.res" src\Lesson08.rc<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+clang.exe -g -target x86_64-pc-windows-msvc -D_DEBUG -DDEBUG -fms-extensions -m64 -target x86_64-pc-windows-msvc -I"C:\Program Files\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGX64\Debug\src\Lesson08.o<br />
+clang.exe -L"C:\Program Files\LLVM\lib\clang\15.0.0\lib\windows" -L"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64" -L"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64\store" -o binCLANGX64\Debug\Lesson08.exe objCLANGX64\Debug\src\Lesson08.o  objCLANGX64\Debug\src\Lesson08.res -target x86_64-pc-windows-msvc -m64 -target x86_64-pc-windows-msvc  -lglu32 -lopengl32 -luser32 -ladvapi32 -lcomdlg32 -lwinmm -lgdi32 -lshell32 -lkernel32<br />
+Output file is binCLANGX64\Debug\Lesson08.exe with size 121.50 KB<br />
+<b>-------------- Build: Release CLANG MSX64 in Lesson08 (compiler: LLVM Clang Compiler X64)---------------</b><br />
+rc.exe -I"C:\Program Files\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" /fo "C:\src\OpenGL\NeHe_Lesson08-master\objCLANGX64\Release\src\Lesson08.res" src\Lesson08.rc<br />
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384<br />
+Copyright (C) Microsoft Corporation.  All rights reserved.<br />
+clang.exe -target x86_64-pc-windows-msvc -DNDEBUG -fms-extensions -m64 -target x86_64-pc-windows-msvc -I"C:\Program Files\LLVM\lib\clang\15.0.0\include" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (X86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include" -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGX64\Release\src\Lesson08.o<br />
+clang.exe -L"C:\Program Files\LLVM\lib\clang\15.0.0\lib\windows" -L"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64" -L"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64" -L"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64\store" -o binCLANGX64\Release\Lesson08.exe objCLANGX64\Release\src\Lesson08.o  objCLANGX64\Release\src\Lesson08.res -target x86_64-pc-windows-msvc -m64 -target x86_64-pc-windows-msvc  -lglu32 -lopengl32 -luser32 -ladvapi32 -lcomdlg32 -lwinmm -lgdi32 -lshell32 -lkernel32<br />
+Output file is binCLANGX64\Release\Lesson08.exe with size 121.50 KB<br />
+<b>-------------- Build: Debug CLANG MSYS W32 in Lesson08 (compiler: CLANG MSYS W32 Compiler)---------------</b><br />
+clang.exe -g -D_DEBUG -DDEBUG -m32 -IC:\msys64\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGMW32\Debug\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGMW32\Debug\src\Lesson08.res<br />
+clang.exe -LC:\msys64\mingw32\i686-w64-mingw32\lib -o binCLANGMW32\Debug\Lesson08.exe objCLANGMW32\Debug\src\Lesson08.o  objCLANGMW32\Debug\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binCLANGMW32\Debug\Lesson08.exe with size 144.98 KB<br />
+<b>-------------- Build: Release CLANG MSYS W32 in Lesson08 (compiler: CLANG MSYS W32 Compiler)---------------</b><br />
+clang.exe -m32 -IC:\msys64\mingw32\i686-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGMW32\release\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw32\i686-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGMW32\release\src\Lesson08.res<br />
+clang.exe -LC:\msys64\mingw32\i686-w64-mingw32\lib -o binCLANGMW32\Release\Lesson08.exe objCLANGMW32\release\src\Lesson08.o  objCLANGMW32\release\src\Lesson08.res -m32  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binCLANGMW32\Release\Lesson08.exe with size 136.27 KB<br />
+<b>-------------- Build: Debug CLANG MSYS W64 in Lesson08 (compiler: CLANG MSYS W64 Compiler)---------------</b><br />
+clang.exe -g -D_DEBUG -DDEBUG -m64 -IC:\msys64\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGMW64\Debug\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGMW64\Debug\src\Lesson08.res<br />
+clang.exe -LC:\msys64\mingw64\x86_64-w64-mingw32\lib -o binCLANGMW64\Debug\Lesson08.exe objCLANGMW64\Debug\src\Lesson08.o  objCLANGMW64\Debug\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binCLANGMW64\Debug\Lesson08.exe with size 160.11 KB<br />
+<b>-------------- Build: Release CLANG MSYS W64 in Lesson08 (compiler: CLANG MSYS W64 Compiler)---------------</b><br />
+clang.exe -m64 -IC:\msys64\mingw64\x86_64-w64-mingw32\include -c C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.c -o objCLANGMW64\release\src\Lesson08.o<br />
+windres.exe -IC:\msys64\mingw64\x86_64-w64-mingw32\include  -J rc -O coff -i C:\src\OpenGL\NeHe_Lesson08-master\src\Lesson08.rc -o objCLANGMW64\release\src\Lesson08.res<br />
+clang.exe -LC:\msys64\mingw64\x86_64-w64-mingw32\lib -o binCLANGMW64\Release\Lesson08.exe objCLANGMW64\release\src\Lesson08.o  objCLANGMW64\release\src\Lesson08.res -m64  -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -mwindows<br />
+Output file is binCLANGMW64\Release\Lesson08.exe with size 151.47 KB<br />
+<b>-------------- Build: Archive in Lesson08 (compiler: GNU GCC Compiler)---------------</b><br />
+cmd /c del *.7z<br />
+cmd /c del *.tgz<br />
+cmd /c del *.tar<br />
+Impossible de trouver C:\src\OpenGL\NeHe_Lesson08-master\*.tar<br />
+"C:\CodeBlocks\cbp2make.exe" --local -in C:\src\OpenGL\NeHe_Lesson08-master\Lesson08.cbp -out makefile<br />
+Starting cbp2make rev.147...<br />
+Using default configuration.<br />
+"C:\Program Files\Python310\python.exe" ..\..\tools\Size_exec.py Lesson08<br />
+Date dernière modification du source .\src\Lesson08.c : Sat Feb  5 13:36:39 2022<br />
+Date dernière modification du source .\src\Lesson08.rc : Sat Sep 17 14:48:35 2022<br />
+Date dernière modification du source .\src\resource.h : Thu Sep  2 15:04:20 2021<br />
+Tableau récapitulatif de la taille des exécutables générés pour le projet : Lesson08<br />
+  Debug Borland C/C++ :      22.0 KB<br />
+  Release Borland C/C++ :    22.0 KB<br />
+  Debug CLANG MSYS W32 :     145.0 KB<br />
+  Release CLANG MSYS W32 :   136.3 KB<br />
+  Debug CLANG MSYS W64 :     160.1 KB<br />
+  Release CLANG MSYS W64 :   151.5 KB<br />
+  Debug CLANG Mingw32 :      91.9 KB<br />
+  Release CLANG Mingw32 :    84.2 KB<br />
+  Debug CLANG Mingw64 :      97.7 KB<br />
+  Release CLANG Mingw64 :    89.5 KB<br />
+  Debug CLANG VS2022 32 :    99.5 KB<br />
+  Release CLANG VS2022 32 :  99.5 KB<br />
+  Debug CLANG VS2022 64 :    121.5 KB<br />
+  Release CLANG VS2022 64 :  121.5 KB<br />
+  Debug Cygwin 32 :          154.0 KB<br />
+  Release Cygwin 32 :        140.2 KB<br />
+  Debug Cygwin 64 :          173.2 KB<br />
+  Release Cygwin 64 :        160.5 KB<br />
+  Debug Mingw64 CPP :        174.3 KB<br />
+  Release Mingw64 CPP :      34.5 KB<br />
+  Debug DMC 32 :             40.5 KB<br />
+  Release DMC 32 :           40.5 KB<br />
+  Debug lcc 32 :             59.8 KB<br />
+  Release lcc 32 :           47.2 KB<br />
+  Debug lcc 64 :             56.6 KB<br />
+  Release lcc 64 :           41.6 KB<br />
+  Debug Mingw32 officiel :   85.2 KB<br />
+  Release Mingw32 officiel : 41.0 KB<br />
+  Debug Mingw32 WinLibs :    96.5 KB<br />
+  Release Mingw32 WinLibs :  83.3 KB<br />
+  Debug Mingw64 WinLibs :    104.3 KB<br />
+  Release Mingw64 WinLibs :  38.0 KB<br />
+  Debug Mingw64 CB :         116.1 KB<br />
+  Release Mingw64 CB :       32.5 KB<br />
+  Debug Mingw32 MSYS2 :      150.1 KB<br />
+  Release Mingw32 MSYS2 :    35.5 KB<br />
+  Debug Mingw64 MSYS2 :      167.8 KB<br />
+  Release Mingw64 MSYS2 :    34.5 KB<br />
+  Debug OpenWatcom 32 :      56.6 KB<br />
+  Release OpenWatcom 32 :    33.5 KB<br />
+  Debug OpenWatcom 64 :      33.5 KB<br />
+  Release OpenWatcom 64 :    33.5 KB<br />
+  Debug Pelles C 32 :        66.0 KB<br />
+  Release Pelles C 32 :      38.0 KB<br />
+  Debug Pelles C 64 :        72.5 KB<br />
+  Release Pelles C 64 :      43.5 KB<br />
+  Debug TDM Mingw32 :        73.9 KB<br />
+  Release TDM Mingw32 :      40.5 KB<br />
+  Debug TDM Mingw64 :        242.9 KB<br />
+  Release TDM Mingw64 :      79.5 KB<br />
+  Debug VS 2022 32 :         496.5 KB<br />
+  Release VS 2022 32 :       99.0 KB<br />
+  Debug VS 2022 64 :         642.0 KB<br />
+  Release VS 2022 64 :       121.5 KB<br />
+"C:\Program Files\Python310\python.exe" ..\..\tools\Calc_checksums.py Lesson08<br />
+Tableau récapitulatif des différents checksums générés pour le projet : Lesson08<br />
+Calcul des cheksums du fichier : .\binBC55\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 8b9b8570.<br />
+Checksum MD5 is cfb9d1a954d02c425f23d24dd15e4239.<br />
+Checksum SHA256 is 7ae000843c6b2902ed927136b2ddd428cc6abbe2189245b8d034ca442a6fbbba.<br />
+Checksum SHA512 is c1eb9b40695878c2d90e76b5cbd62ff934118f3cdfa8c4c5cd1cfa9f05752b68a4f199735c5aed35442ee50d5f26ee7c02c05e1917bd8250804883c78869b7f0.<br />
+Checksum RipeMD160 is c2a74daf55decfa748870009850b930e6cf52849.<br />
+Checksum BLAKE2B is 1a57f74606114cb07fd03ba409882862178765e2f49fa5c20634b716d850c1d166ed5ee9352858dd2e9600aa0cb168598780e66d68edb17c234f644fb55b63ed.<br />
+Calcul des cheksums du fichier : .\binBC55\Release\Lesson08.exe.<br />
+Checksum CRC32  is 8b9b8570.<br />
+Checksum MD5 is cfb9d1a954d02c425f23d24dd15e4239.<br />
+Checksum SHA256 is 7ae000843c6b2902ed927136b2ddd428cc6abbe2189245b8d034ca442a6fbbba.<br />
+Checksum SHA512 is c1eb9b40695878c2d90e76b5cbd62ff934118f3cdfa8c4c5cd1cfa9f05752b68a4f199735c5aed35442ee50d5f26ee7c02c05e1917bd8250804883c78869b7f0.<br />
+Checksum RipeMD160 is c2a74daf55decfa748870009850b930e6cf52849.<br />
+Checksum BLAKE2B is 1a57f74606114cb07fd03ba409882862178765e2f49fa5c20634b716d850c1d166ed5ee9352858dd2e9600aa0cb168598780e66d68edb17c234f644fb55b63ed.<br />
+Calcul des cheksums du fichier : .\binCLANGMW32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 31b42784.<br />
+Checksum MD5 is 49a400d9e80bdcbe831c3411a8480027.<br />
+Checksum SHA256 is 0a68c699332d2e252e9f9d8b47d38acc1a33dfebaaa6bbe934e8422cc6174411.<br />
+Checksum SHA512 is f514b0c2ec9c7c139e3034d36a4dceee532d8675a65b93822cce1921d1d8ca896c5c12a131b4ac794184499b595c9321a8634e96d74f2e12afb8af621fa3bc93.<br />
+Checksum RipeMD160 is a0dc018f63a918498f47045b8cbca730844f9253.<br />
+Checksum BLAKE2B is 3544cd39a7fcb06cf7d5b754b0be0526d2b03118d44c63557a2c08c6fa6253a47b17866e0d86208befa924b64f6527894b0cf4c272d56ca1399d25db58822ef1.<br />
+Calcul des cheksums du fichier : .\binCLANGMW32\Release\Lesson08.exe.<br />
+Checksum CRC32  is 72c8257a.<br />
+Checksum MD5 is e150beec06ba52d066bf73db5adc2b93.<br />
+Checksum SHA256 is c12d7a0165dab38c898973c594af71bf23832df2a8ac6dc6e8d7ef20d91a4a64.<br />
+Checksum SHA512 is fe450cc807d68fcee8dfc5d82b89612f5092bf5ec65fdd68615421770165953222df013d024c0bdb6ff2516e80064c39d80a9f23342ada5b04810670bfbfcf45.<br />
+Checksum RipeMD160 is 31d518bc58d75dc221441097bf0f47878a6a0c35.<br />
+Checksum BLAKE2B is 9fd956f5818804243f92c3d97ee32a860d5bc145da180ccd0524bc1a90f8b9fe92d3f70480e99f52f8297b53b0eea1f27824269dae1edf02202ef7931c01cdd1.<br />
+Calcul des cheksums du fichier : .\binCLANGMW64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is b64ba6ea.<br />
+Checksum MD5 is 6bc0fb11f079b6cb6a2f7342b4a192d0.<br />
+Checksum SHA256 is 426a805374a7dbeaef1b5da906e374290688fb9dd300801e0d1cb3c6946483d6.<br />
+Checksum SHA512 is 5905f0b1f88a81db494af04d6794e441f88d3f8703e0fcdf0c168bc29e4490b49bb80c6e96efb44d20507f1cfb365858ce524e0a5b67a941dda700a9974cd751.<br />
+Checksum RipeMD160 is e733f30c95fb42b48949d1dab738acf473966a4e.<br />
+Checksum BLAKE2B is 8d2b835873cce7b374658f64a1394810c6cb35a52f53efb98e1688ca629134ab53ed89350fda8320ff22bf2855ec6f2652e1ef52f4918a64ce33a94dacb1043f.<br />
+Calcul des cheksums du fichier : .\binCLANGMW64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 8c34ce78.<br />
+Checksum MD5 is 158d2ab94eb69d94fcd4d88194f6938b.<br />
+Checksum SHA256 is acff16e7ebb1714022bd819a72f50e1cb07faff70cf3480c9f42374a8fb1140c.<br />
+Checksum SHA512 is 6b73f04a6327d00f2811299a7e3961c65c011f29260f5d5ce1a2fbbb295226f9fbecc56d185bccae0fcc1087a0629f17c29f15397cdf181e3883b4b729352c3f.<br />
+Checksum RipeMD160 is ba865f309a6690d96e45c95946d4a1d611d40ca0.<br />
+Checksum BLAKE2B is 2d6faa1c3e098dbf4ee36dcc48dee438142d43acccd41fd3dda15e9456b795329f21f6bf9492dc9b00eac898aeb50ed7634415e6db1b0a103c933ca9bafec8af.<br />
+Calcul des cheksums du fichier : .\binCLANGW32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is bcff7419.<br />
+Checksum MD5 is abe696c26a293d5f8146e0c01950d871.<br />
+Checksum SHA256 is 11c7cd06016316d94aa9634dab15b509c810c0bc0d3df0c9706cbc1a2d8723d3.<br />
+Checksum SHA512 is 3d849600890aeec1b6c8ebc5052721028cb0117a363b5f84a52d0eaa0b01319b7700148d06f7777713513ca08fbc16b6c6aa01fa976facc77b064a6337ca9746.<br />
+Checksum RipeMD160 is e4d16096429049fbbb6debe8cb1f82d35e47fc84.<br />
+Checksum BLAKE2B is eddd7614d9cf9c2bfffdb6bbf0df1a20225ffcf026e341183462b05573775b66758c55a5638a275b8214d793d8a658a8a518fb49474513122483988ced5dc3df.<br />
+Calcul des cheksums du fichier : .\binCLANGW32\Release\Lesson08.exe.<br />
+Checksum CRC32  is 8445ced7.<br />
+Checksum MD5 is 7f06cdd95555491aa36898558f86daa5.<br />
+Checksum SHA256 is d3eaba7817048963bd8db2b182a4573a5e5015d4eaffe9572e5711bbe3464b27.<br />
+Checksum SHA512 is 6fdfbe4bbe4766d343f99aea2189a3140bbe81a9273a16cae564435397adf68220665af5d9e7f2d540c5baf2322c216ed355b585f651254b44dee3b0608267ff.<br />
+Checksum RipeMD160 is ee15f6196d089bc723a0ad40b305c4acafb4189f.<br />
+Checksum BLAKE2B is c2cedefe3479a8b259f5b270407301b7c85e01473eb24754cbc2cbe15bed947e8eaeabfd58c9179372bdd3cd1b5665a8d2a94611d56bed1dfd5b43b345f723ae.<br />
+Calcul des cheksums du fichier : .\binCLANGW64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 169fbab9.<br />
+Checksum MD5 is 0fc33719d7e401b0462f57983c03431a.<br />
+Checksum SHA256 is 22547e6095a4d621ab8ed1a06dc1c047586c97d7c365ac8c2b7fc53c55fc8226.<br />
+Checksum SHA512 is 4ce65d1a0533ccc7fb5c4abe6648faff84136f2cee1d1177731be485dc43bf1625e3f7190ef1355f779c8f7916d420e32ddf2da56defc479da73ef9d1e6b5f12.<br />
+Checksum RipeMD160 is 901552d0c0a5e6772858b88dc0234068bfa2744e.<br />
+Checksum BLAKE2B is fa584cc4cccad4f374dc92fdcf836b3dbd49a1496207a59988188ea4fe66251ee4bff19e22ec8244d2bd61bba7b4399e262dcc913f839a32deeb964066107159.<br />
+Calcul des cheksums du fichier : .\binCLANGW64\Release\Lesson08.exe.<br />
+Checksum CRC32  is bfcfcf28.<br />
+Checksum MD5 is 949050502ece619f403c88a58726719a.<br />
+Checksum SHA256 is b2949875529c5f68bd7ff51cbf0986423b8804b1f8122096a1a95d894d08b90d.<br />
+Checksum SHA512 is b433fb682e9d2777a6ae08680cef4b8cac6c42ba5df40001b74d5aa46c43e449c7d9ea9e52df591fcd1a606af55987cfd0347eaed989b6abcf20e0724b71ef28.<br />
+Checksum RipeMD160 is f65d5386042a2bfa63f9d0c200157e9c53a13554.<br />
+Checksum BLAKE2B is dce73e3fefd242ab7ee1f56378bcb07fcdbf78b52d795aa58729fac31ca1ca7554639535ba27e056b9aafbfddc9c0bf483dfd4e4a55bc2d5de444afc66a8d9c9.<br />
+Calcul des cheksums du fichier : .\binCLANGX32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 2180e15c.<br />
+Checksum MD5 is ca82fa208e3b6710fe3b711e66ea26b4.<br />
+Checksum SHA256 is 8b3c4ef626b275b862576985a24d156fe028c0cfe3f32a6011fbf2605589dca0.<br />
+Checksum SHA512 is bc9effa96bed581d40be8e3f734d12118f13bb9a576a1e74c2bf139ab749c4a394e0c0c1238a0159db135b5a947c58c3e5c5c6728edc262bd5708303d4ad197a.<br />
+Checksum RipeMD160 is e0c407aca5de58c384e69aa2ba3585d79aca91a1.<br />
+Checksum BLAKE2B is 3588bca3d75b13faab3ca067209636379d40b7ac00afc2b5ed3ea5c8c5e8c38c73e3a29266af813f75194a04f4f6965dc3182d9cfd96b81aed3363809a5a3d97.<br />
+Calcul des cheksums du fichier : .\binCLANGX32\Release\Lesson08.exe.<br />
+Checksum CRC32  is f8a8cf12.<br />
+Checksum MD5 is 81dcafa98f71edc072794919e304e961.<br />
+Checksum SHA256 is 2813eae336b6b715a027f397eb7b75881745c68d2f9dd798ecd6552521f1cbbc.<br />
+Checksum SHA512 is 6715aca22b3390b6964461cc5a5dec109f834d13db9a28652b1fc57aaa992be37e507a0023d41bd2f0bf65626207d7085af74b9e548a18bc2c79f9dee29aaf11.<br />
+Checksum RipeMD160 is 689c7154122fa75c588a3ae79564f90dd582dd92.<br />
+Checksum BLAKE2B is f21da3afadf17e33b9cd7a01de6e84f94aaa93d103ea1b6e7fbda9e72d3b745743286b5a6797b7d904087264c4d9389689c9d444bf0a277e59d3e9c4cd709743.<br />
+Calcul des cheksums du fichier : .\binCLANGX64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 29752772.<br />
+Checksum MD5 is 70a906f19875bd34494bed74f888b084.<br />
+Checksum SHA256 is 85843a6f76e97bdb46429b18a0eb98bbb04bcba4bf2717247f3c245039baf1ad.<br />
+Checksum SHA512 is cc3dc2497395a3e7ba3ee853375eda95539d960081cdb456fcee466a1b751f6a918c2c303a0e72c74e64a623d2a22c8118500561d70e48eca339da89f3b18481.<br />
+Checksum RipeMD160 is 3eca4284467650433087910a80fa7223e0e540f9.<br />
+Checksum BLAKE2B is 66845b516ed7f9651718bffd3f4d6597a2ee3175ca053a05ff5978ccb95cfa11a824db2c9f3bd2221d2eaf595b08bc2bfba00d00c320aeace2ac53e76320aae6.<br />
+Calcul des cheksums du fichier : .\binCLANGX64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 270a55af.<br />
+Checksum MD5 is 1118d27731d6bbd3aa8b10a94c9db777.<br />
+Checksum SHA256 is f6b5cb30f34b3be0af877cc2e2c4ca1a96711e76d7f4c4628b82b08cf421558d.<br />
+Checksum SHA512 is 7cb91ae16ebaa31f464cd100094e73f88bad40d7f3ccfd3b1f5ecbef27083eee54f88cae19cce9931b5a22ae6510b5c47540faa4c82203fc4aa0fef1809665dd.<br />
+Checksum RipeMD160 is b957beb0ceb42494cf336b0f430f3dc458a2c4f5.<br />
+Checksum BLAKE2B is a1f3ab76fcac6a5318f43f800461da0297dda0ef680aab2ee1abefb5a155840a2e176e72dfdf2d412e022b677cf796d06e98a7216d3b00bc9fac4694534e8e3b.<br />
+Calcul des cheksums du fichier : .\binCYGWIN32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 55c4cdb8.<br />
+Checksum MD5 is f66ac9197d02dfef34773cd48c98615c.<br />
+Checksum SHA256 is 53de9a2079f811f7fbeb3d97d7dc65c6740af99dae83b49c7e34a1c150c2e3ef.<br />
+Checksum SHA512 is 7509d7b4980a3a862a3771727bf1485708a6fa8e5c97565756ffb5023087ab66a21f5a79bf6a1558189e9c1fa14761eb39119aaa581fbe1ded660c91b7a5fe23.<br />
+Checksum RipeMD160 is 6be9a42451e4ed3dd40c98cfde8e138bb1955e6c.<br />
+Checksum BLAKE2B is 272001a80ac37aa5e143380737da5fa9656b326bfe0403f2311b38279d4b92f22d2be3fe2c57c0f8adc7e408469c01c5278890a7b72ac7b2b25588c7a8ff39a4.<br />
+Calcul des cheksums du fichier : .\binCYGWIN32\Release\Lesson08.exe.<br />
+Checksum CRC32  is b32f5253.<br />
+Checksum MD5 is 01ce0bce2584ee18764772f4f518ab09.<br />
+Checksum SHA256 is c02c5fcaf777c27dc96b33cf447007a2fefcbfad841d2486a4d19dd0523a0a9a.<br />
+Checksum SHA512 is 311b69ee6e0bf6c605fea6029ff6e71fa34633705b9ca063c828185e3535265c7697618805558209ef98c593254555b3dea88e82a8c139db9381f9359da4e5b0.<br />
+Checksum RipeMD160 is da1bfd621484fb1830319200f14ed1718cd72e79.<br />
+Checksum BLAKE2B is 95589528b27d623d8c06c5af153b750e74b5fcfad75e152c802cd3f485dd9c98a91b9ae9cfe1cf46e22f87c239bed92a2034f2e08e9020e6a17b67363782a7f8.<br />
+Calcul des cheksums du fichier : .\binCYGWIN64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is c66528b3.<br />
+Checksum MD5 is 89ab78a2a6932bf0bfce2ec9404bf261.<br />
+Checksum SHA256 is cf7fdb2d03d34952f1f072af26e26af207043001a6efae5aad8ff9b03b34b593.<br />
+Checksum SHA512 is f4ef002321cf74fe6089e43c26a8ccba430db581b590f4dd04b83f55a02984199616c63ec720e473f9e99c34ac140f9f1ee47fd365bf9ab777c42966a80e5c1e.<br />
+Checksum RipeMD160 is 56f2e50d1c9eea4691d0859ec9b8744540c08265.<br />
+Checksum BLAKE2B is 4bab24898041202b2ebee43ba0510077aa3ba20452911430bb98bb91dd067af675cb6ce2d54901a50c574a46e3bbc56bcf34337c04ee139d5714c2a7c637e032.<br />
+Calcul des cheksums du fichier : .\binCYGWIN64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 8aa2a1dd.<br />
+Checksum MD5 is 4078e7c25c9e6695e079f24280ec3b76.<br />
+Checksum SHA256 is 1d8c7a9802600d2cd7ffbc167ea9b643c6bdea6af44589b4589c60c15d9a422a.<br />
+Checksum SHA512 is a4fccadc57881812f6872b08cc0df9552e6d222a7d9738b6b760343a0acc312009357ccf54c90c82c0b4c379deedcad9d0b6ad88e05dd308347bbfe8eaad4cea.<br />
+Checksum RipeMD160 is e663dead321bbaf3b471bac7208f5169a94b6314.<br />
+Checksum BLAKE2B is 96e889c27dce8252a741ddd7bbea662f4fb1c6eb5fe03a4c6a2668f60e9a80093cce2c57ab83c0186f004fc92a6787c4ebb09226b72bdf546a91fa3a6a7cfd0e.<br />
+Calcul des cheksums du fichier : .\binDevCpp\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 9a5e0d2d.<br />
+Checksum MD5 is 3d9459f6e55c5f7a815da776e265ff22.<br />
+Checksum SHA256 is da76db4789c6e759a26c7728f5014d1531b9806e84bd1f77181017c6642c0894.<br />
+Checksum SHA512 is 9cb9ba5cb76146f2dcc2e6487a23e3d24040a79fe0ad9079e4d5331afabd4a92d1217bc67eb12be27652a6d4b6d2378f08b65465331089a803ebf9977ac72cc1.<br />
+Checksum RipeMD160 is e8b4070e4db3bc0a2f373f7f65a2cb84b4535b84.<br />
+Checksum BLAKE2B is bb36596486577337b716236a083f2ab67c96a172718b5a3fbb718fd1392cfcc631c579983f701d7bfe81eeb4a62a105896ea1ed405ebc95057e49945ce5b6a58.<br />
+Calcul des cheksums du fichier : .\binDevCpp\Release\Lesson08.exe.<br />
+Checksum CRC32  is 5dc4738.<br />
+Checksum MD5 is 7ea79881f7f45792c30cab61056818ff.<br />
+Checksum SHA256 is a95f742b2001c53064354198032363a9e1fb4e6d2065946bc089063bf769c7c8.<br />
+Checksum SHA512 is 905a7dc5c9040380abc5cef0f61c3cf9fd1cb13f70254bc627555bdc32e5cb72a5910290a0a2d18ecec79dc299c1450587edeff5465dfd0b4df449482599a289.<br />
+Checksum RipeMD160 is 6c7836aa0e01cda329df5e0653dc76c58512a2be.<br />
+Checksum BLAKE2B is 839798b8d7d76f14f167d2cb0cefd65afeaca563b2cd22484974198304398fc2be3f1f6edde678a5f79acb711f087bd026e3093380bbf30990753ca1b35298a9.<br />
+Calcul des cheksums du fichier : .\binDMC\Debug\Lesson08.exe.<br />
+Checksum CRC32  is ba846321.<br />
+Checksum MD5 is 6d0a806c1d1a27fdbdea5bdd96e8472e.<br />
+Checksum SHA256 is 28d5c02b20ab238531bb658824b655d4680c60732d5fc780d929d697420557eb.<br />
+Checksum SHA512 is da8331236bd5fdb5709435c3dea578602cc2216458926a2ae3b49d8862518a59d8cd618f926088c28d876561e35db64889383e2f3bfefcc8d433f927f5a84038.<br />
+Checksum RipeMD160 is a65e21d5c196088d1583580ff74e61505ba9a88f.<br />
+Checksum BLAKE2B is ed1cb41329f35ac0658d62b7497cae83ec1365e0ad5ae257e2bb25fd5b0e7167bdb3cbe9c6754cd5fa45da53b3e908d8d0b276db4a12d9bf18e4f11a2e831927.<br />
+Calcul des cheksums du fichier : .\binDMC\Release\Lesson08.exe.<br />
+Checksum CRC32  is e01ca649.<br />
+Checksum MD5 is bd5e60d76ffdb4325f9a5ef19b55a98a.<br />
+Checksum SHA256 is 57079f3c1a3767bc3951a1e83aa0454fe0983fae58ea48dbb964960cce2cc18e.<br />
+Checksum SHA512 is 03fcc6aa08e992d8aa992642888f9c4571a9ecbc505765c28a667ea1eb9280607c5533a53dc7f41676886ac719b80be76390d08d53a7fd72e37736d37a8146b6.<br />
+Checksum RipeMD160 is 8aa9ef085aa457188d5f764ab80a2a78b95ff111.<br />
+Checksum BLAKE2B is 19b52b4820111b8bfe44eb7119379946c0e12956e5e5df851b459fbc53c1aba889b26b363fe5148c638ff8f620a01c4572938c425c68094c47c9be1de75a2809.<br />
+Calcul des cheksums du fichier : .\binlcc32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 9600bc8a.<br />
+Checksum MD5 is 3d5ff30d224aacdbba75875a49cf2422.<br />
+Checksum SHA256 is 24dee383381b5c9d87838de10d9faee8860d6be35357a200abee0ecff826673f.<br />
+Checksum SHA512 is 6aea6fa5c981dff9985dc3ccd89f8f1d4c1b478bdd55196a4fa163036bf975b444e1e5209b8985b220b54b874cb7b53d5252e41ccd7b268f6904297b0471c5de.<br />
+Checksum RipeMD160 is 7f4c85f49ee8b2e7ec3f1c573fb9fc60ae5a96cf.<br />
+Checksum BLAKE2B is 7563fa40ee3ea7e6a1e1cc191d2312d4e9a9add010e037e9ea8a374b17cfd092003c979dfb7125a3a182dbd31543b0bac0ebd4e2be9bf6c2d73aa446e0b1f99c.<br />
+Calcul des cheksums du fichier : .\binlcc32\Release\Lesson08.exe.<br />
+Checksum CRC32  is 52bec95f.<br />
+Checksum MD5 is c5993956eddda5c097e168a30fb83fc5.<br />
+Checksum SHA256 is c6debab9b989b6f0b3b402ee920a007b5f46c2d837e088502640e095c38b736e.<br />
+Checksum SHA512 is e1fc76b8cda1c3ab9642d923e6c14525e39958d31f3b4c43ef886ca1ca2935314d857a1468fe1c77595ba8afbbd22b6bae46225668f3fc2476173993c0bb0330.<br />
+Checksum RipeMD160 is 56c3e685e071f1d1a916efd3b26916fcbc1c3786.<br />
+Checksum BLAKE2B is 7d55b7e303707e1381ea4d35a5bc039c46f4cafc0149aeb5bfc0533bd07e46debdaf1884f2b7a256f374ca42682de8c219706f9c9b6580e66e39ad012c110ede.<br />
+Calcul des cheksums du fichier : .\binlcc64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is e289aa6a.<br />
+Checksum MD5 is eb7712f9155a479522d88303cba74358.<br />
+Checksum SHA256 is a8fc5b2f9dc78193bd7ddf7a37cc2fdbdc0bcb3af1ec7177c8e9a0480fd9aa8a.<br />
+Checksum SHA512 is 6db480359eb554868c774e683945b05deb2eab2f3ecafad30e15e1830efc13bf6a8203507cdfe1d2e6d8d64b3a2fe7930f503dd43ff161cfe8d60e0096b5c52d.<br />
+Checksum RipeMD160 is 6fc5764c89959742c17009327872c1e637219209.<br />
+Checksum BLAKE2B is 1dd9a09aeff8ae8c82656b7317c292a783d07822160c53041a2e92462c8a01a7450da0a6e6303d5d283c972718027c892bf5254e451d62b4a06e854d5d8ae4ab.<br />
+Calcul des cheksums du fichier : .\binlcc64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 370ca29.<br />
+Checksum MD5 is 2e30586840de742d9e7352bd08990966.<br />
+Checksum SHA256 is 0580514537315c1d7dd58262a8c274b92aa22d0289fad1c9b60e6ded1c41b690.<br />
+Checksum SHA512 is d468521c6f8667a50ceaf79d0cf553844b1a7b85445cb04a3f22c9f3c3a21da36d858be002cdf888c1d047613a007cd202d3b95a0eacd71de69166c98ce7a55a.<br />
+Checksum RipeMD160 is c744a23918e4b875a9adfc6b30151ed7b143b5da.<br />
+Checksum BLAKE2B is e4fbf6a1b54fd3396bbabe70737c16546b8fd5481b582405832267306d268ec9bcd15325cfda17c7e2600871eec8d168e4c959faaecbe280626b46ff7481d0d4.<br />
+Calcul des cheksums du fichier : .\binMingw32of\Debug\Lesson08.exe.<br />
+Checksum CRC32  is be47b906.<br />
+Checksum MD5 is 265450cdd1eb177712c0ac88e9346b15.<br />
+Checksum SHA256 is dc725cbf1cec6aefd3c1f583b78c0af57858b35b5c7000d8a45778598976f20b.<br />
+Checksum SHA512 is c0f9fe102fd36a52bfb451ad7c4e2e5e6a0022c0fbf7a07e988302fc36a1b7174cb295a7a0ac50938970e9c4c471f2fe0be48b141baf35731f0c217694da5f9f.<br />
+Checksum RipeMD160 is 2d51c8f565ebc77fd92eb7585d85cf7dbcb0e0ab.<br />
+Checksum BLAKE2B is 18224d7bd461886811c950ecd00010a1cda205ab02cc9566954b35c4db8bc0f4d2b507b9b985356e37fa2ef3b3fb068fbd2cb38b0e31a9194ff684111476ae56.<br />
+Calcul des cheksums du fichier : .\binMingw32of\Release\Lesson08.exe.<br />
+Checksum CRC32  is 803c43a2.<br />
+Checksum MD5 is c6663913a2b7b2e7d736b5ce66b87567.<br />
+Checksum SHA256 is e7914e56f7db2235cf8b4261cff849d0bb647589ec46cf149b930c969a8fc71a.<br />
+Checksum SHA512 is 25efe184b8034e44ff4aa5486e4e0e03836ed0798791a7bffb06dc4513dabd5c003dbe484b77264ef85687c42184b46fa0e1b8afcbe429c68a3c3d107531e5b8.<br />
+Checksum RipeMD160 is b5de26e5ec45e3c0ef68125ed84c9d04d0c6ccbc.<br />
+Checksum BLAKE2B is 345fe84bd6f0d2eadd311fd5ab29bbc76349b6e5017dfb28252d934e9e44c93013ae9c7393b2f82f482c5f5312b4e3b7464fb2ffe334367bfd307eacf5c7fdb1.<br />
+Calcul des cheksums du fichier : .\binMingw32wl\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 80b5dbe3.<br />
+Checksum MD5 is 2db180a43332a3f049431048e9803986.<br />
+Checksum SHA256 is 3d4eb7b433c492d7185bd3d3cf06b6c96fda1c3f171c3836bcff298da0d1bce0.<br />
+Checksum SHA512 is 032801698ca420fe0e37272c61b5fbaa15cba9a2dedc9c1d1b6fdeb33f16f90461e5144608a9a23240b78fc8c38a8eaaeffa66be2b4ae4c144df80c9edb543d5.<br />
+Checksum RipeMD160 is 400b83e0037ac300586b70f8cf9a3947b589a57a.<br />
+Checksum BLAKE2B is e19f711b514eaa7b2a79b31623f3f6fea1b63ac6ed1a4badeaf53de357776f88d8474606adfac6666670b77016b8572a48a212c50e1e0d0c2eab40e3b37f40d5.<br />
+Calcul des cheksums du fichier : .\binMingw32wl\Release\Lesson08.exe.<br />
+Checksum CRC32  is 600c3fb9.<br />
+Checksum MD5 is 8574c64d9d83ac6df30acb98447bbb86.<br />
+Checksum SHA256 is 9adea5fe0acad45b1f68c75d0d7857b874c215e94707eaebb89d9b94879fb421.<br />
+Checksum SHA512 is 79a4ddad6dd1dbd44501a7c1830dd999b06a8e12ed9bee0293ab3e368e69636b88c962fb8d0d81f4b4e722f9be29ebf1e4da54f43538c0a23f79d1e64ce705ba.<br />
+Checksum RipeMD160 is 5c7c8804780794319a91e6cda406711e77f0fb29.<br />
+Checksum BLAKE2B is ca60b87ef085429f154aca848acd2c042f1f756dae277ffb8d57be42f1fb6f33fbe54d5bde54bda6ace3de9452ddcc9fdf273f970f6d92de262fa424326aa279.<br />
+Calcul des cheksums du fichier : .\binMingw64wl\Debug\Lesson08.exe.<br />
+Checksum CRC32  is d89a8436.<br />
+Checksum MD5 is cc89ce11d5fe9ca6436f1c0452f18759.<br />
+Checksum SHA256 is 3d48440c046eee125444ba893d99866265cd2183aa9a89307b4acd6404642b9b.<br />
+Checksum SHA512 is dcea40ccc27fffb6eeb382a1362d0259cf2091d5a984abeed6e2592935e09e172336acb2ec903d03f263858ce86dd89d7e37da35841acb641d4f377734d0b867.<br />
+Checksum RipeMD160 is e3f10ad33b85b820987efb01b6c840648529aac2.<br />
+Checksum BLAKE2B is dd5ee0c24623ce27e3c098f6bb9b8ff8e18487d124f665c06d591da37538c8985d0fc9ad00fdc41aa1d0a1ee7db0ebeb193b2c68ed31a38ae7af674588a5c430.<br />
+Calcul des cheksums du fichier : .\binMingw64wl\Release\Lesson08.exe.<br />
+Checksum CRC32  is dd1b5103.<br />
+Checksum MD5 is debb8a79596fcb1b6ac7e7ef927ed7cc.<br />
+Checksum SHA256 is 449a3cf9e861bbf6d597813d91d0b130793ac8dc3456343b772df9abe135c4cb.<br />
+Checksum SHA512 is ba8c8ee163db66925cfd997a4e47fa68239817ee41534afed461719c7b5f6c1d3f83ccc51c25fe5bbf592ef365ce0720f14e6f151c22bfc40dba86de5e8c13d3.<br />
+Checksum RipeMD160 is 26f3d9f07710c2fdc9b7dd2f8a08c64aa1d648a9.<br />
+Checksum BLAKE2B is 805ce3c079db14b2ba9fc30e388d5e0d729f36ad99faad3b4007cb0977e36475820066d80652ec8732008fec1c40fcbda9d5f2dc0f5c0a2c055b7788fa7b8d5a.<br />
+Calcul des cheksums du fichier : .\binMingw64CB\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 9232c328.<br />
+Checksum MD5 is 65666bf2b79ef5e2168856059873b815.<br />
+Checksum SHA256 is 85f214ce9553d7fd6c42346c058ca010b1e5fc42de8650d1aa681af56cd82305.<br />
+Checksum SHA512 is 7a521906d45a2dc698a79043298ad36ff0cf19892403bc15db144480b43db47a327e4363043a1b0ffb1e82a116774e941e4517e4c5730aeab608bafe97d7ab23.<br />
+Checksum RipeMD160 is 16e463c1ba2dd30a3d95670894018be08a0793d2.<br />
+Checksum BLAKE2B is 1792ffc7e3b9fd7a4d55fdf7bc8e8a84badc8f37a33aec218ab5ea95a6b677a32fce20540d79039ef34317be89f09bb00081da32c46cddb6cdf0863feab3a887.<br />
+Calcul des cheksums du fichier : .\binMingw64CB\Release\Lesson08.exe.<br />
+Checksum CRC32  is 4afe5160.<br />
+Checksum MD5 is 682df1d1743eb9f89498ef85fe6022f4.<br />
+Checksum SHA256 is 20fa9299f0c58975825fdb7b863e7596c91545d8402138b50e42da767934f840.<br />
+Checksum SHA512 is 33b7a1434aa213251a418e5663f80075ca4c0e33d99be3c9b68c6e8fff6b22666a954d9f50679c59e70c7ea0a1f35149d8ef8162f9492f1426a4506ac6aba07e.<br />
+Checksum RipeMD160 is 625953b30dc02b7d5066730cbbbb823e29df9499.<br />
+Checksum BLAKE2B is 1c210fafa961fb77f541d27456174c2a808d64046f1ab65e22c35fc6bd96efa21817cc53a9f6056eba0c1ac8161fa02ff8dd67e41bfd60af1ba09a21cb9f8137.<br />
+Calcul des cheksums du fichier : .\binMSYS2W32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 147dcbb8.<br />
+Checksum MD5 is 45a79776b3562c96e6ea70222149984d.<br />
+Checksum SHA256 is 29766a75af9df6bdce07d53cae0e23e2d38d73254159a82637def1db28e97e97.<br />
+Checksum SHA512 is becaf18426d359ef58c64c1f09e447afda53e62cb0f31b3a4422a397ed66c7ca07974824563fabf473b276228fbc47b63146097a650dab83e3f1704b4521384f.<br />
+Checksum RipeMD160 is d8d40f33ac304438ebc167a59c17cafe23ec1e41.<br />
+Checksum BLAKE2B is 38bce97678a35d8c75f79b0311d1a22bda280882c2b2d8ccee381a3cc0a7cb8dc29b8dbafaa69faaabd8123b17fb170478c0790153c5846579aed7291ea22401.<br />
+Calcul des cheksums du fichier : .\binMSYS2W32\Release\Lesson08.exe.<br />
+Checksum CRC32  is f930ed1.<br />
+Checksum MD5 is a1f7d9b380618e93ac5cc5701cc1ed47.<br />
+Checksum SHA256 is dc500c58cc396940ccf3ddb87182e7121c842e127c4382bdc2b6e170810ced83.<br />
+Checksum SHA512 is 3a14e9abb40b670e6d63985e3d2c992853049cf369e9eeecb5f275a5d97f1cf0adc83bdb1a18c4293cc9d2beb01dc4ac8fd8f9593db80cf067cbc42fb0affce5.<br />
+Checksum RipeMD160 is a1d8bf9394de07a432644ea41577785a1811ee3b.<br />
+Checksum BLAKE2B is 911beabe9ebaaa69c38b9a02650f82e6636b55dc6058e33fe2a898290c602fc56f878028aa8037367a1c7ff98d0a7b11b56b2154be2a8e37c3e92a8b14bcfcb4.<br />
+Calcul des cheksums du fichier : .\binMSYS2W64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is f1660739.<br />
+Checksum MD5 is 8a8004384a4518c91ee8e7fd668c35f8.<br />
+Checksum SHA256 is b9eb0a1450e627d3acfdeaf4a4707604133fa98d77129a4c6197562d1f460630.<br />
+Checksum SHA512 is 78da7ee3710cf2719b2679808253e7c007e7b142bf499dc75ed78f80aa6b12f43b23d23ca05d32213aeb75b9b8737ddb1fd7f2db4a0a40b73c017e2046397085.<br />
+Checksum RipeMD160 is 995cc846e227f24f22ba0d5c82a5b553d23477ed.<br />
+Checksum BLAKE2B is af48bdce0dd5188181b5fb5823eb8b54f983ecf23529ebbf69843ee04fc2309d2c2b42199cfb39dc2032e93e28ae325b1fbc477bc031ea626bffc341f0486648.<br />
+Calcul des cheksums du fichier : .\binMSYS2W64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 3672e4c2.<br />
+Checksum MD5 is 4b1346df7f4a9383b89e97f4ef7d67c6.<br />
+Checksum SHA256 is 0892c976fc713d9aa25e9ecca629da04b7909a03adb391f78738074396c6ade7.<br />
+Checksum SHA512 is 0e58ce71a47b5a4c0f9b3e3eada28f2a891756762d36466aea6d290869acab76562489da0f0eda5bddec16338ef7a96fb56f133bd016939dfdce99ca873265af.<br />
+Checksum RipeMD160 is 1eee1b481124b9b5ef674dbf5625515a761e1df7.<br />
+Checksum BLAKE2B is 72a3ddc7b29a7009db1f30c2e3db6e0d452152ba03a49be5a25d484c7a9169c18b7a2d8ac6a09b609b853cb60397829ba76af62d47095654b4b4e803d6149948.<br />
+Calcul des cheksums du fichier : .\binOW32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 8ccfb31.<br />
+Checksum MD5 is 28c83311e36f8c3fb63c6de096dc701f.<br />
+Checksum SHA256 is 0c0cf363ba023798fbc39dd6d2a49ef175ba921da75922f4ee6e567b748ef153.<br />
+Checksum SHA512 is 9de9177c45ed80dab97670e1dbbd75d1507f616ea3a1e8a810290c295a03438d8afaeee1ee4254110961bf0984fc91ade3b18a3c7dcde9e437c818fd6834e5d9.<br />
+Checksum RipeMD160 is be17e9b3a226c2fde4b210d3d8cb5bd861278aef.<br />
+Checksum BLAKE2B is 6857ac778f4e9cdb6331152b75be6bfec5ea49683ddc3c076e091cd1f3752edf42f56c8051e149ae60887b22ae71120bcb41c43dc3e17f0df1b08e82b4b2c399.<br />
+Calcul des cheksums du fichier : .\binOW32\Release\Lesson08.exe.<br />
+Checksum CRC32  is b91449de.<br />
+Checksum MD5 is 54fba99a37c91f6c1e43087cff67c03a.<br />
+Checksum SHA256 is ef99243f1e807e85fa11488e29acbf5a18386da3cc96a23239ea976b87ccf4ac.<br />
+Checksum SHA512 is bbb04a9b93c3eec1df8be1f00ec94ba39a7bea585eca36ec7068cec62354d850d203630254dfefdf6e892404388a16ec66690e22cf0135b45437241ede9659d2.<br />
+Checksum RipeMD160 is 4cd12d88b1fca00bfa5847b234a77468ba619797.<br />
+Checksum BLAKE2B is f33f56e066788f848f20d0a0f0f10a7f2ebd1b7a8ac89e686f798ba1520a9e1ad03466cd5d8a66e68f32ca70a17a5c224efe3441a10925bc1cd37cdb6e218c69.<br />
+Calcul des cheksums du fichier : .\binOW64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 3c935235.<br />
+Checksum MD5 is 521c1151ffd79a35a0a43636e29cf6eb.<br />
+Checksum SHA256 is ebbfe005e0a3d34c12966bf81e4be4b41ad89c71bcf9ce94f189eaa9fbf4fdca.<br />
+Checksum SHA512 is 37155bd86c6445e95429af0867e47adf43773401fa5549397b99cbe4019f1e72f9deedb19e3f73a8a0089a72fffca70fce70e521e277f5d00bf8d7f087aaf402.<br />
+Checksum RipeMD160 is 8304dc2e99174e836fb426727ac9e42d7ba0d13d.<br />
+Checksum BLAKE2B is fd291dae0c9753dc71cf9ce0264b01461526d7f5fbee23a07381039abbac990716eb1de0eee890768905ee6cf403759c72a00b1f39662f401483deae34c63ba8.<br />
+Calcul des cheksums du fichier : .\binOW64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 3c935235.<br />
+Checksum MD5 is 521c1151ffd79a35a0a43636e29cf6eb.<br />
+Checksum SHA256 is ebbfe005e0a3d34c12966bf81e4be4b41ad89c71bcf9ce94f189eaa9fbf4fdca.<br />
+Checksum SHA512 is 37155bd86c6445e95429af0867e47adf43773401fa5549397b99cbe4019f1e72f9deedb19e3f73a8a0089a72fffca70fce70e521e277f5d00bf8d7f087aaf402.<br />
+Checksum RipeMD160 is 8304dc2e99174e836fb426727ac9e42d7ba0d13d.<br />
+Checksum BLAKE2B is fd291dae0c9753dc71cf9ce0264b01461526d7f5fbee23a07381039abbac990716eb1de0eee890768905ee6cf403759c72a00b1f39662f401483deae34c63ba8.<br />
+Calcul des cheksums du fichier : .\binPELLESC32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is a0eda5fd.<br />
+Checksum MD5 is 595f654030e3a209c8a0a5fe224c537b.<br />
+Checksum SHA256 is bb08c9e1549daae81f1cb3bfa73df0036c85b0860a60fd8475b20601a1d9410c.<br />
+Checksum SHA512 is 5248e640a8e6dfb6ca7091ff4ae076603cd57571129c5082e0193497b926b10dfb485d331368ee3667ff1e4ab7372066bd35a3ee5c64778e977adba6fc3d13bd.<br />
+Checksum RipeMD160 is b7c1863caf7b15eb8214eb22e745e7478566b1c0.<br />
+Checksum BLAKE2B is 7d60d858e03376f58cdf16f45a2fa1cd2c24a2ac934efc173b7fc999675f1471d5c6ad72f1db7517c54e4aff8dd2451e8b2b051f3b5ac510d2a1f8c0dc6b10ae.<br />
+Calcul des cheksums du fichier : .\binPELLESC32\Release\Lesson08.exe.<br />
+Checksum CRC32  is cd4dde80.<br />
+Checksum MD5 is 7b9f3a78f6d01cf54d8e7e4464bbab9a.<br />
+Checksum SHA256 is 41b858f8b31dd1a736f3806f48337694bd7fd33e835b449e83adcf78c4e97abf.<br />
+Checksum SHA512 is 258eac2ef3bcd13fc2eb584ae84580103488fcaba6d003ecc3ca781e36d54397b9370902dcfd111bb70f098937d07ab5f6ccbbe4622b2d5b1ef8e88d1ba1b9c0.<br />
+Checksum RipeMD160 is 49929644d26eb8a8f838f4b0afede53acf6d8536.<br />
+Checksum BLAKE2B is 677e86bede2a25d948046ff6e29cf5c6656da6217a79c688dd30ac63c51fce35ca07c32e59cba5ded044c1271784293b4103fb3fcf092959c2d2d3ada5f38a15.<br />
+Calcul des cheksums du fichier : .\binPELLESC64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 263d1db2.<br />
+Checksum MD5 is a3c73d32948cf6fc2d89537e46778329.<br />
+Checksum SHA256 is c17c3884d43ab11de2e5ee8ae55eafe35796ed39de70419b10c270ad36840e5a.<br />
+Checksum SHA512 is 18727d434498be5ce7b46944a520b4ac02ccb0f2aa0556ded7015f42af5c797b45b9dfa803ee8fae5edf5bf46a2d422f48e19c713682d5e8eb1ecc7b697a0ce7.<br />
+Checksum RipeMD160 is 25781f1b62806cd3d75b18920e27b82f8325e566.<br />
+Checksum BLAKE2B is b953d6d31e0bd84c52194fa14ffef5839b8f0ec55992e7ec55dee422547e58d53295c82a6ceda3fedfed8913295650ec88d40ffca322e73cf3f2cccad5cbf795.<br />
+Calcul des cheksums du fichier : .\binPELLESC64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 6c4bde5c.<br />
+Checksum MD5 is 65ffa20a9f5e5577eeaf52451aec7311.<br />
+Checksum SHA256 is 6d208392dfe1c2dbce7c58585449eb18ef792e0d9532938f01ff932713de9339.<br />
+Checksum SHA512 is fd292dfe6e9ed0604aea166867d255d1d2515ed2b07efc650348c41f5d974c185ca04978e1793fd578365276bd3fca0797dc316e418507c69a5ca7ca7efc483d.<br />
+Checksum RipeMD160 is 97e8c32612d853f1f206cf0fb73d0069572fd354.<br />
+Checksum BLAKE2B is 699310fd941917b43a441ea6bf1748846f3405d5a22204d1f72947f76aec78f592e59b2bb5e10c1455d721ab830e5fba941f34c56554c13c8ab6db8226e053e6.<br />
+Calcul des cheksums du fichier : .\binTDMW32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 93952c3a.<br />
+Checksum MD5 is b11b53b716552b33d6a7be60e0a82a7f.<br />
+Checksum SHA256 is a58ed7c30a9fe1c0a61fc88a315f855e8891231d856199a52373c66f6b422384.<br />
+Checksum SHA512 is a450c9d5436233a4135f2ac1951e8d6e83a40017b883c09bac1023f541e162fef7c5e46d9ea8faff693d4957d1284a670f1dae7da0378500b60216b6fd6b9d92.<br />
+Checksum RipeMD160 is d5937ca27fb1a5069edc76b803cbe1314cbbf9a2.<br />
+Checksum BLAKE2B is ebc955efa7145a672ed180a9936454035e726ed9aa8aa591af53026e046ff9cbdc9ac35bfbb45b67508908c4e0fb1ab2517148e82be1ab490fb112eaa6b9edb4.<br />
+Calcul des cheksums du fichier : .\binTDMW32\Release\Lesson08.exe.<br />
+Checksum CRC32  is 39d388a4.<br />
+Checksum MD5 is e03af2295bc8abe2a4d429ea8b4d0d97.<br />
+Checksum SHA256 is d2c8186ccda108daf4b1309d72495c6496ebc66f0f408952822370cb8d7c9826.<br />
+Checksum SHA512 is 46af3799a796ca4869fb546da005292882827c7b9d63c1a1faccf8606375666a3c3d60eb6b839e255213b9b2148f9eeed5aa1b70cbf1ab1c3bbddad69cdd75ba.<br />
+Checksum RipeMD160 is e634cc7b7146869185b91dfd0ba38c7a4314e51d.<br />
+Checksum BLAKE2B is b02239a7a1537d2a49dedfdcd7af0f151604cd248499bb260c458e2cbeb1f8cf55aa9461ec383ffbae0227f19e05aeb619237c2edc884d58b044373f656ebf1e.<br />
+Calcul des cheksums du fichier : .\binTDMW64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is d9d9c4e3.<br />
+Checksum MD5 is d99eff7d6744f71bc43ca03d49f77fc3.<br />
+Checksum SHA256 is 53e365577b9be5d76c5e61798b607e0dff42c0586c0de0c5fed518a85067c93b.<br />
+Checksum SHA512 is a4bf3a0b1dc61c9401cce5278ab360ab5cdb08daf8e2d26b688a517ad8f40cf93a537f863e86ef59a084fdc479f9d07cc188ae3ab3aeddb0c328b7e8328e8e98.<br />
+Checksum RipeMD160 is 400e2adf1f7ee79a8ee6fb1a219064fa19a30106.<br />
+Checksum BLAKE2B is ab8fa8267280df73f5e66801a4d35b91c93383e4f78397c02e4bdceb9d85c6809d8f420995c508e746a8df3ecea5700b13ae2efe9e9bfcc87dfc9b26f2ca23ba.<br />
+Calcul des cheksums du fichier : .\binTDMW64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 4139300e.<br />
+Checksum MD5 is 3b29d1d3eb17e3db7581148dcbb58b22.<br />
+Checksum SHA256 is 6d97f16fc644dd5afc87b2a712c0d4aa8e8eab4ab6ddb04d795820e18c281557.<br />
+Checksum SHA512 is 30138bd19ad33316c2cb112ef074f130e2da98c7a532cf2d8dc51237498a7bfd5735c7ade617017a8dd4b03c0e9685199af291010e82396e55b1c2dccb25f053.<br />
+Checksum RipeMD160 is fdcb976c075653dec5a3f2a1733e86eedd22f989.<br />
+Checksum BLAKE2B is 352023f2c54530395261d14bb5a2c02db44b6508a9164e0d866dfc17bedf844153540c02cec0059a5fefd19903b1202df9f7db9dfe7a35fd789f62e7667d1cf1.<br />
+Calcul des cheksums du fichier : .\binVS2022X32\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 1ea610ed.<br />
+Checksum MD5 is 6460439fe941c9a2fe8cdd1d86b1aa44.<br />
+Checksum SHA256 is 612c9c36bb3ecde795181c800994096a4af039e9c7208ef6e9d94979fce52719.<br />
+Checksum SHA512 is 7e85221e87c399f8c194193f5ef6699b54fa20472ac2b362d372ee2f2d02ea1262d52ed3a40a890639b551eb2648af6059934e3f35ec727c87b860959f7188fb.<br />
+Checksum RipeMD160 is 239f3a8160156eef64ca41c3a8a69990bdd79d22.<br />
+Checksum BLAKE2B is be808c2c9d41f820890ceb5792b52518f548e0c60f4edcbba331bd6f8813dcc5db4171f6b07456e7c83a70ef96d7dce08f0eedabf436b1364b78e438b260fc36.<br />
+Calcul des cheksums du fichier : .\binVS2022X32\Release\Lesson08.exe.<br />
+Checksum CRC32  is 61465ab7.<br />
+Checksum MD5 is c090f8a2746a89ba7e432be1f00c3828.<br />
+Checksum SHA256 is 003ce61723eda8606c9686a59bee512fbbfac6abd50c002b30a019dbff17d65b.<br />
+Checksum SHA512 is 9471107163f063c9d99c8325b8f1052518390a707a5ed7fe83084f3cd06f174ff6962f110cc855a9ae98bcc034e643b95bbbca28f17c1371e672170c970dd90a.<br />
+Checksum RipeMD160 is d8871f42e352d76d7954b9f6c6b73b7b37631a18.<br />
+Checksum BLAKE2B is 7ee75b61a5a7c3f19cadc776a69a50c91b901806efb29f2e7c637c8384c911088ca2010085ea49215c621924bfce29848f5200a4f5d33a5486604b8f0b332552.<br />
+Calcul des cheksums du fichier : .\binVS2022X64\Debug\Lesson08.exe.<br />
+Checksum CRC32  is 59963d1c.<br />
+Checksum MD5 is 0a441698618864d6937dc5296c6fd20c.<br />
+Checksum SHA256 is dda3367f6c8f97687c8c658ae5b3216781256a5bdf7ce490e42c2e7b0235ca3a.<br />
+Checksum SHA512 is a8b2a16d41cd1b8c89c23a220263d48ddc7337499aa80c85dce7abd442b076ff191188980d5ef8c90136af80af865b8cfe273e8288324743b7b931a43acef504.<br />
+Checksum RipeMD160 is dd46d946f8235d6f7cd2db189ca2157a4cab0ee6.<br />
+Checksum BLAKE2B is fedcc7f199e93670930d4f1a7e19ec0c5ad7cfbcca1d700c4dab61bc7219e77cca0c6938c8d739d65aa2b5dc700fe2c912cc0e9c539ff7a07164d0be18596acb.<br />
+Calcul des cheksums du fichier : .\binVS2022X64\Release\Lesson08.exe.<br />
+Checksum CRC32  is 455b30d8.<br />
+Checksum MD5 is 01d296d8bcdece4aacf98528ae834e69.<br />
+Checksum SHA256 is 9c1134c2474f0bf4c68d2fd6182c994ef1b06939ba72cbd04427f56276993e1f.<br />
+Checksum SHA512 is a9c5b04d8c0a8b82a5b05dc37315cb3cf6e985c7591c4db8771deb7829636d94a92c5781fd08a3fdd59488fb6728bee62c0a04d448d771b409b41c2678593090.<br />
+Checksum RipeMD160 is 2a65fe4a1403ca605bf6c3fa990154c5bc969ee3.<br />
+Checksum BLAKE2B is a7e3e43bd43d4367fd584220795b91029ef07c108de66e17dd4b25d8b62d666872d878d196d743ad5d8dcc11b7493f235946fc0cbb488bd5353084eae6ca3c18.<br />
+C:\Program Files\7-Zip\7z a  Lesson08_2022-09-17_src.7z src\*.* res\*.* data\*.* build.cmake\* *.bat *.txt *.html *.md doxygen\* doc\* *.cbp *.workspace -x!*.bak -p"Lesson08_tde"<br />
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15<br />
+Scanning the drive:<br />
+494 folders, 1809 files, 21735739 bytes (21 MiB)<br />
+Creating archive: Lesson08_2022-09-17_src.7z<br />
+Add new data to archive: 494 folders, 1809 files, 21735739 bytes (21 MiB)<br />
+Files read from disk: 1781<br />
+Archive size: 1786794 bytes (1745 KiB)<br />
+Everything is Ok<br />
+C:\Program Files\7-Zip\7z a -ttar Lesson08_2022-09-17_all.tar * -x!*.7z -x!*.bak -p"Lesson08_tde"<br />
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15<br />
+Scanning the drive:<br />
+729 folders, 2440 files, 61755814 bytes (59 MiB)<br />
+Creating archive: Lesson08_2022-09-17_all.tar<br />
+Add new data to archive: 729 folders, 2440 files, 61755814 bytes (59 MiB)<br />
+Files read from disk: 3169<br />
+Archive size: 64096768 bytes (62 MiB)<br />
+Everything is Ok<br />
+C:\Program Files\7-Zip\7z a -tgzip Lesson08_2022-09-17_all.tgz *.tar<br />
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15<br />
+Scanning the drive:<br />
+1 file, 64096768 bytes (62 MiB)<br />
+Creating archive: Lesson08_2022-09-17_all.tgz<br />
+Add new data to archive: 1 file, 64096768 bytes (62 MiB)<br />
+Files read from disk: 1<br />
+Archive size: 14579972 bytes (14 MiB)<br />
+Everything is Ok<br />
+cmd /c del *.tar<br />
+<font color="#0000ff">Process terminated with status 0 (1 minute(s), 20 second(s))</font><br />
+<font color="#0000ff">0 error(s), 12 warning(s) (1 minute(s), 20 second(s))</font><br />
+</tt>
+</body>
+</html>

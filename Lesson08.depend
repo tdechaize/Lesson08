@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1450887254 source:c:\src\opengl\lesson08\lesson08.rc
+	<windows.h>
+	<winver.h>
+	"resource.h"
+
+1450633564 c:\src\opengl\lesson08\resource.h
+
+1630584308 source:c:\src\opengl\nehe_lesson08-master\lesson08.rc
+	<windows.h>
+	<winver.h>
+	"resource.h"
+
+1630584260 c:\src\opengl\nehe_lesson08-master\resource.h
+
+1663418915 source:c:\src\opengl\nehe_lesson08-master\src\lesson08.rc
+	<windows.h>
+	<winver.h>
+	"resource.h"
+
+1630587860 c:\src\opengl\nehe_lesson08-master\src\resource.h
+
