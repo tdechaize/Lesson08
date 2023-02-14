@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['neheloadbitmap3_0',['NeHeLoadBitmap3',['../_lesson08_8c.html#ae1c091a456680cc628759567198fe7ec',1,'Lesson08.c']]]
+  ['loadgltextures_0',['LoadGLTextures',['../_lesson08_8c.html#a8dd15539ba90ae3670aa0a9f889d2236',1,'Lesson08.c']]]
 ];

@@ -27,7 +27,7 @@
 #ifndef HEADER_RESOURCE__INCLUDED
 #define HEADER_RESOURCE__INCLUDED
 
-#define IDC_MYICON                      2
+#define IDC_MYICON                      101
 #define IDD_TEXTDIALOGSAMPLE_DIALOG     102
 #define IDS_APP_TITLE                   103
 #define IDD_ABOUTBOX                    103

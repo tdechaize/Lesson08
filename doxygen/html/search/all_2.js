@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initgl_0',['InitGL',['../_lesson08_8c.html#aa4c387d3f1ebce6d57684b6a10c9b0ae',1,'Lesson08.c']]]
+  ['createglwindow_0',['CreateGLWindow',['../_lesson08_8c.html#ae5f043c9df9b9e5e0e26d567feeeb1bc',1,'Lesson08.c']]]
 ];
